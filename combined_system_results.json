@@ -1,0 +1,1296 @@
+{
+  "n_hard": 30,
+  "n_easy": 20,
+  "n_total": 50,
+  "n_samples": 7,
+  "temperature": 0.5,
+  "greedy": {
+    "total": 34,
+    "hard": 15
+  },
+  "sc_always": {
+    "total": 40,
+    "hard": 20
+  },
+  "results": [
+    {
+      "question": "Who was the 30th president of the United States?",
+      "keywords": [
+        "coolidge",
+        "calvin"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The 30th president of the United States was William Howard Taft.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The 30th president of the United States was William Howard Taft.",
+        "correct": false,
+        "samples": [
+          "The 30th president of the United States was William Howard Taft.",
+          "The 30th president of the United States was William Howard Taft.",
+          "The 30th president of the United States was William Howard Taft.",
+          "The 30th president of the United States was William Howard Taft.",
+          "The 30th president of the United States was Andrew Johnson.",
+          "The 30th president of the United States was William Howard Taft, who served from January 20, 1921, to January 20, 1923.",
+          "The 30th president of the United States was William Howard Taft."
+        ]
+      },
+      "oscillation": 13
+    },
+    {
+      "question": "What is the melting point of tungsten in Celsius?",
+      "keywords": [
+        "3422",
+        "3400"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "Tungsten has a melting point of 1,000\u00b0C.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The melting point of tungsten in Celsius is 2410\u00b0C.",
+        "correct": false,
+        "samples": [
+          "The melting point of tungsten in Celsius is 2410\u00b0C.",
+          "Tungsten has a melting point of 2,284.15\u00b0C.",
+          "Tungsten has a melting point of 2650\u00b0C.",
+          "The melting point of tungsten in Celsius is 5263.4 degrees Celsius.",
+          "Tungsten has a melting point of 1537\u00b0C.",
+          "Tungsten has a melting point of 1500\u00b0C.",
+          "Tungsten has a melting point of 1,230\u00b0C."
+        ]
+      },
+      "oscillation": 17
+    },
+    {
+      "question": "What is the half-life of uranium-235 in years?",
+      "keywords": [
+        "703 million",
+        "703",
+        "700"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The half-life of uranium-235 is 5730 years.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The half-life of uranium-235 is approximately 573 years.",
+        "correct": false,
+        "samples": [
+          "The half-life of uranium-235 is approximately 573 years.",
+          "The half-life of uranium-235 is 5730 years.",
+          "The half-life of uranium-235 is 5730 years.",
+          "The half-life of uranium-235 is approximately 573,000 years.",
+          "The half-life of uranium-235 is 5730 years.",
+          "The half-life of uranium-235 is 573 days.",
+          "The half-life of uranium-235 is 5730 years."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "What is the largest desert in the world by area?",
+      "keywords": [
+        "antarctica",
+        "antarctic"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 2.5 million square kilometers (960,000 sq mi).",
+        "correct": false,
+        "samples": [
+          "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 2.5 million square kilometers (960,000 sq mi).",
+          "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 3,900,000 square kilometers, making it the second-largest desert in the world after the Amazon Desert.",
+          "The Sahara Desert is the largest desert in the world by area. It covers an area of approximately 13.8 million square kilometers.",
+          "The Sahara Desert is the largest desert in the world by area. It covers an area of approximately 1.5 million square kilometers.",
+          "The Sahara Desert is the largest desert in the world by area.",
+          "The largest desert in the world by area is the Sahara Desert.",
+          "The Sahara Desert is the largest desert in the world by area."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "What country has the most UNESCO World Heritage Sites?",
+      "keywords": [
+        "italy",
+        "china"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The country with the most UNESCO World Heritage Sites is France.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The country with the most UNESCO World Heritage Sites is Italy.",
+        "correct": true,
+        "samples": [
+          "The country with the most UNESCO World Heritage Sites is Italy.",
+          "The country with the most UNESCO World Heritage Sites is the United States.",
+          "China has the most UNESCO World Heritage Sites.",
+          "The United States has the most UNESCO World Heritage Sites.",
+          "The country with the most UNESCO World Heritage Sites is France.",
+          "The country with the most UNESCO World Heritage Sites is Spain.",
+          "The country with the most UNESCO World Heritage Sites is Spain, with 34 sites. Spain is also one of the world's most visited countries, with over 115 million visitors in 2021. The country has a rich cultural heritage, with many sites that are UNESCO World"
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "What is the atomic weight of plutonium?",
+      "keywords": [
+        "244",
+        "242",
+        "239"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "Plutonium has an atomic weight of 238.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The atomic weight of plutonium is approximately 239.933 u.",
+        "correct": true,
+        "samples": [
+          "The atomic weight of plutonium is approximately 239.933 u.",
+          "Plutonium has an atomic weight of 238.",
+          "The atomic weight of plutonium is 238.92 u.",
+          "Plutonium has an atomic weight of 238.6884 amu.",
+          "Plutonium has an atomic weight of approximately 238.0192 amu.",
+          "The atomic weight of plutonium is 238.0298 amu.",
+          "Plutonium has an atomic weight of 238.194 amu."
+        ]
+      },
+      "oscillation": 21
+    },
+    {
+      "question": "What is the rarest blood type?",
+      "keywords": [
+        "ab-",
+        "ab negative"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The rarest blood type is O negative.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The rarest blood type is O negative.",
+        "correct": false,
+        "samples": [
+          "The rarest blood type is O negative.",
+          "The rarest blood type is Type O, which is also known as Rh-negative blood. Type O is the most common blood type and accounts for about 5% of the world's population. It is the only type that can't be transfused and is the most common type of blood transfusion",
+          "The rarest blood type is O negative.",
+          "The rarest blood type is A, with an estimated 1 in 620,000 people having it.",
+          "The rarest blood type is Type O. There are only about 30,000 Type O blood donors per year.",
+          "The rarest blood type is O+ (O+).",
+          "The rarest blood type is A, with only about 2% of the human population being A."
+        ]
+      },
+      "oscillation": 19
+    },
+    {
+      "question": "Who won the Nobel Prize in Chemistry in 2023?",
+      "keywords": [
+        "bawendi",
+        "brus",
+        "ekimov"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "In 2023, the Nobel Prize in Chemistry was awarded to the German chemist Friedrich W\u00f6hler for his work on the synthesis of the first organic molecules.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The Nobel Prize in Chemistry 2023 was awarded to the Swiss scientist Niels Bohr for his work in quantum physics.",
+        "correct": false,
+        "samples": [
+          "The Nobel Prize in Chemistry 2023 was awarded to the Swiss scientist Niels Bohr for his work in quantum physics.",
+          "The Nobel Prize in Chemistry was awarded to David J. F. van der Waals in 2023.",
+          "In 2023, the Nobel Prize in Chemistry was won by the French chemist Antoine Lavoisier.",
+          "The Nobel Prize in Chemistry was won by N. K. Chandra Pratap Singh in 2023.",
+          "The Nobel Prize in Chemistry was won by the Chinese scientist Song Hongbin in 2023.",
+          "The Nobel Prize in Chemistry 2023 was won by the German chemist Matthias M\u00fcller-Rosenberger, who won the prize for his work on the synthesis of the amino acid cysteine.",
+          "In 2023, the Nobel Prize in Chemistry was awarded to the Japanese chemist Tetsuro Shindo for his work on the discovery of the enzyme catalase, which catalyzes the breakdown of water into oxygen and hydrogen."
+        ]
+      },
+      "oscillation": 18
+    },
+    {
+      "question": "What is the speed of sound in water in m/s?",
+      "keywords": [
+        "1480",
+        "1500",
+        "1498"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The speed of sound in water is approximately 1450 meters per second.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The speed of sound in water is approximately 1500 meters per second.",
+        "correct": true,
+        "samples": [
+          "The speed of sound in water is approximately 1500 meters per second.",
+          "The speed of sound in water is 1500 m/s.",
+          "The speed of sound in water is approximately 1456 meters per second.",
+          "The speed of sound in water is approximately 1456 meters per second (m/s).",
+          "The speed of sound in water is approximately 1500 m/s.",
+          "The speed of sound in water is approximately 1492 meters per second.",
+          "The speed of sound in water is approximately 1520 meters per second."
+        ]
+      },
+      "oscillation": 18
+    },
+    {
+      "question": "Who is the prime minister of New Zealand as of 2024?",
+      "keywords": [
+        "luxon",
+        "christopher"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The current prime minister of New Zealand is Jacinda Ardern.",
+        "correct": false,
+        "samples": [
+          "The current prime minister of New Zealand is Jacinda Ardern.",
+          "The current prime minister of New Zealand is Jacinda Ardern.",
+          "The current prime minister of New Zealand is Jacinda Ardern.",
+          "The current Prime Minister of New Zealand is Jacinda Ardern.",
+          "The current Prime Minister of New Zealand is Jacinda Ardern.",
+          "The current Prime Minister of New Zealand is Jacinda Ardern.",
+          "The current Prime Minister of New Zealand is Jacinda Ardern."
+        ]
+      },
+      "oscillation": 20
+    },
+    {
+      "question": "What is the GDP of Vietnam in 2023 in USD?",
+      "keywords": [
+        "430",
+        "450"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The GDP of Vietnam in 2023 is estimated to be approximately $1.5 trillion USD.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "As of 2022, the GDP of Vietnam was estimated to be approximately $1.3 trillion USD.",
+        "correct": false,
+        "samples": [
+          "As of 2022, the GDP of Vietnam was estimated to be approximately $1.3 trillion USD.",
+          "As of 2023, the GDP of Vietnam is estimated to be around $119.1 billion USD.",
+          "As of 2023, the GDP of Vietnam is estimated to be around USD 135.2 billion.",
+          "As of 2023, the GDP of Vietnam is estimated at approximately $1.24 trillion USD.",
+          "The GDP of Vietnam in 2023 is estimated to be around $2.5 trillion USD.",
+          "The GDP of Vietnam in 2023 is estimated to be approximately $242.1 billion USD.",
+          "As of 2023, the GDP of Vietnam is estimated to be around 21.66 USD billion."
+        ]
+      },
+      "oscillation": 17
+    },
+    {
+      "question": "What is the capital of Kyrgyzstan?",
+      "keywords": [
+        "bishkek"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The capital of Kyrgyzstan is Bishkek.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The capital of Kyrgyzstan is Bishkek.",
+        "correct": true,
+        "samples": [
+          "The capital of Kyrgyzstan is Bishkek.",
+          "The capital of Kyrgyzstan is Bishkek.",
+          "The capital of Kyrgyzstan is Bishkek.",
+          "The capital of Kyrgyzstan is Bishkek.",
+          "The capital of Kyrgyzstan is Bishkek.",
+          "The capital of Kyrgyzstan is Bishkek.",
+          "The capital of Kyrgyzstan is Bishkek."
+        ]
+      },
+      "oscillation": 18
+    },
+    {
+      "question": "What is the capital of Burkina Faso?",
+      "keywords": [
+        "ouagadougou"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The capital of Burkina Faso is Ouagadougou.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The capital of Burkina Faso is Ouagadougou.",
+        "correct": true,
+        "samples": [
+          "The capital of Burkina Faso is Ouagadougou.",
+          "The capital of Burkina Faso is Ouagadougou.",
+          "The capital of Burkina Faso is Ouagadougou.",
+          "The capital of Burkina Faso is Ouagadougou.",
+          "The capital of Burkina Faso is Ouagadougou.",
+          "The capital of Burkina Faso is Ouagadougou.",
+          "The capital of Burkina Faso is Ouagadougou."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "Who was the first female prime minister of the UK?",
+      "keywords": [
+        "thatcher"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+        "correct": true,
+        "samples": [
+          "The first female prime minister of the UK was Lady Margaret Bevin, who served from 1983 to 1987.",
+          "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+          "The first female prime minister of the UK was Lady Thatcher.",
+          "The first female prime minister of the UK was Lady Margaret Thatcher.",
+          "The first female prime minister of the UK was Lady Mary, Countess of Derby, who served from 1952 to 1956. She was the first Lady President of the United Kingdom and the first woman to hold the office.",
+          "The first female prime minister of the UK was Lady Thatcher.",
+          "The first female prime minister of the UK was Lady Thatcher."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "What is the half-life of Carbon-14 in years?",
+      "keywords": [
+        "5730",
+        "5700"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The half-life of Carbon-14 is 5730 years.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Carbon-14 has a half-life of about 5730 years.",
+        "correct": true,
+        "samples": [
+          "Carbon-14 has a half-life of about 5730 years.",
+          "Carbon-14 decays into nitrogen-14 and oxygen-14. The half-life of carbon-14 is 5,730 years.",
+          "The half-life of Carbon-14 is approximately 5730 years.",
+          "The half-life of Carbon-14 is about 5730 years.",
+          "The half-life of Carbon-14 is 5,730 years.",
+          "Carbon-14 has a half-life of 5,730 years.",
+          "The half-life of Carbon-14 is 5730 years."
+        ]
+      },
+      "oscillation": 19
+    },
+    {
+      "question": "What year was the WHO founded?",
+      "keywords": [
+        "1948"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The World Health Organization (WHO) was founded on September 3, 1945.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The World Health Organization (WHO) was founded in 1948.",
+        "correct": true,
+        "samples": [
+          "The World Health Organization (WHO) was founded on March 16, 1945.",
+          "The World Health Organization (WHO) was founded in 1948.",
+          "The World Health Organization (WHO) was founded in 1948.",
+          "The World Health Organization (WHO) was founded in 1948.",
+          "The World Health Organization (WHO) was founded on 20th December 1945.",
+          "The World Health Organization (WHO) was founded in 1948.",
+          "The World Health Organization (WHO) was founded on September 7, 1945."
+        ]
+      },
+      "oscillation": 12
+    },
+    {
+      "question": "Who composed the Four Seasons?",
+      "keywords": [
+        "vivaldi"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The Four Seasons were composed by Antonio Vivaldi.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The Four Seasons were composed by Antonio Vivaldi.",
+        "correct": true,
+        "samples": [
+          "The Four Seasons were composed by Antonio Vivaldi.",
+          "The Four Seasons were composed by Antonio Vivaldi.",
+          "The four movements of the Four Seasons were composed by Antonio Vivaldi.",
+          "The Four Seasons were composed by Antonio Vivaldi.",
+          "The Four Seasons were composed by Antonio Vivaldi.",
+          "The Four Seasons were composed by Antonio Vivaldi.",
+          "The Four Seasons were composed by Antonio Vivaldi."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "What is the capital of Myanmar?",
+      "keywords": [
+        "naypyidaw",
+        "naypyitaw"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The capital of Myanmar is Naypyidaw.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The capital of Myanmar is Naypyidaw.",
+        "correct": true,
+        "samples": [
+          "The capital of Myanmar is Naypyidaw.",
+          "Rangoon.",
+          "The capital of Myanmar is Naypyidaw.",
+          "The capital of Myanmar is Naypyidaw.",
+          "The capital of Myanmar is Naypyidaw.",
+          "The capital of Myanmar is Naypyidaw.",
+          "The capital of Myanmar is Naypyidaw."
+        ]
+      },
+      "oscillation": 18
+    },
+    {
+      "question": "What year was the Treaty of Westphalia signed?",
+      "keywords": [
+        "1648"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The Treaty of Westphalia was signed on May 28, 1648, in the Netherlands.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The Treaty of Westphalia was signed on September 3, 1648.",
+        "correct": true,
+        "samples": [
+          "The Treaty of Westphalia was signed on September 3, 1648.",
+          "The Treaty of Westphalia was signed on September 30, 1648, in the Westphalian Palace in the city of Utrecht, the Netherlands.",
+          "The Treaty of Westphalia was signed on June 11, 1648, in the city of Wittenberg, Germany.",
+          "The Treaty of Westphalia was signed on May 28, 1648, in the Netherlands.",
+          "The Treaty of Westphalia was signed on September 3, 1648.",
+          "The Treaty of Westphalia was signed on December 11, 1610, between the Holy Roman Empire and the Netherlands, France, and the Habsburg Empire.",
+          "The Treaty of Westphalia was signed on July 11, 1648."
+        ]
+      },
+      "oscillation": 13
+    },
+    {
+      "question": "What is the tallest building in the world?",
+      "keywords": [
+        "burj",
+        "khalifa"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+        "correct": true,
+        "samples": [
+          "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+          "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates, which stands at 828 meters (2,717 feet) tall.",
+          "The tallest building in the world is the Burj Khalifa, located in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+          "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+          "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+          "The tallest building in the world is the Burj Khalifa, located in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+          "The tallest building in the world is the Burj Khalifa, located in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "Who wrote the novel Don Quixote?",
+      "keywords": [
+        "cervantes"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The novel \"Don Quixote\" was written by Miguel de Cervantes.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The novel \"Don Quixote\" was written by Miguel de Cervantes.",
+        "correct": true,
+        "samples": [
+          "The novel \"Don Quixote\" was written by Miguel de Cervantes.",
+          "The novel Don Quixote was written by Miguel de Cervantes.",
+          "The novel \"Don Quixote\" was written by Miguel de Cervantes.",
+          "The novel \"Don Quixote\" was written by Miguel de Cervantes.",
+          "The novel \"Don Quixote\" was written by Miguel de Cervantes.",
+          "The novel Don Quixote was written by Miguel de Cervantes.",
+          "The novel Don Quixote was written by Miguel de Cervantes, a Spanish writer."
+        ]
+      },
+      "oscillation": 21
+    },
+    {
+      "question": "What is the capital of Kazakhstan?",
+      "keywords": [
+        "astana",
+        "nur-sultan"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The capital of Kazakhstan is Astana.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The capital of Kazakhstan is Astana.",
+        "correct": true,
+        "samples": [
+          "The capital of Kazakhstan is Astana.",
+          "The capital of Kazakhstan is Astana.",
+          "The capital of Kazakhstan is Astana.",
+          "The capital of Kazakhstan is Astana.",
+          "The capital of Kazakhstan is Astana.",
+          "The capital of Kazakhstan is Astana.",
+          "The capital of Kazakhstan is Astana."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "keywords": [
+        "fleming",
+        "alexander"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "Penicillin was discovered by Alexander Fleming in 1928.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Penicillin was discovered by Alexander Fleming in 1928. He isolated penicillin from the skin of a patient named Paul Okun, who had a bacterial infection. The discovery of penicillin was a major breakthrough in medicine, as it provided a treatment for bacterial infections.",
+        "correct": true,
+        "samples": [
+          "Penicillin was discovered by Alexander Fleming in 1928. He isolated penicillin from the skin of a patient named Paul Okun, who had a bacterial infection. The discovery of penicillin was a major breakthrough in medicine, as it provided a treatment for bacterial infections.",
+          "Penicillin was discovered by Alexander Fleming in 1928.",
+          "Penicillin was discovered by Alexander Fleming in 1928. It is a type of antibiotic that is used to treat bacterial infections.",
+          "The first human to develop penicillin was James Smith, a British physician who helped to discover the antibiotic. He published his findings in the journal Nature in 1928. Penicillin is a type of antibiotic that is used to treat bacterial infections.",
+          "Penicillin was discovered by Alexander Fleming in 1928.",
+          "Penicillin was discovered by Alexander Fleming in 1928.",
+          "Penicillin was discovered by Alexander Fleming in 1928."
+        ]
+      },
+      "oscillation": 10
+    },
+    {
+      "question": "What is the boiling point of liquid nitrogen in Celsius?",
+      "keywords": [
+        "196",
+        "-196"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The boiling point of liquid nitrogen in Celsius is -196.15\u00b0C.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The boiling point of liquid nitrogen in Celsius is -196.1\u00b0C.",
+        "correct": true,
+        "samples": [
+          "The boiling point of liquid nitrogen in Celsius is -273.15\u00b0C.",
+          "The boiling point of liquid nitrogen in Celsius is -273.15\u00b0C.",
+          "The boiling point of liquid nitrogen in Celsius is -196.1\u00b0C.",
+          "The boiling point of liquid nitrogen in Celsius is -273.15 degrees Celsius.",
+          "The boiling point of liquid nitrogen in Celsius is approximately -273.15\u00b0C.",
+          "The boiling point of liquid nitrogen in Celsius is -196.25\u00b0C.",
+          "The boiling point of liquid nitrogen in Celsius is -196.6\u00b0C."
+        ]
+      },
+      "oscillation": 20
+    },
+    {
+      "question": "What country has the most natural lakes?",
+      "keywords": [
+        "canada"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The country with the most natural lakes is Russia.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The country with the most natural lakes is Canada.",
+        "correct": true,
+        "samples": [
+          "The country with the most natural lakes is Canada.",
+          "The United States has the most natural lakes.",
+          "Sweden has the most natural lakes in the world.",
+          "The country with the most natural lakes is Switzerland.",
+          "The United States has the most natural lakes.",
+          "The United States has the most natural lakes.",
+          "The country with the most natural lakes is Russia."
+        ]
+      },
+      "oscillation": 13
+    },
+    {
+      "question": "Who was the first person to walk on the Moon?",
+      "keywords": [
+        "armstrong",
+        "neil"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "Neil Armstrong was the first person to walk on the Moon.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Neil Armstrong was the first person to walk on the Moon.",
+        "correct": true,
+        "samples": [
+          "Neil Armstrong was the first person to walk on the Moon.",
+          "Neil Armstrong was the first person to walk on the Moon.",
+          "Neil Armstrong was the first person to walk on the Moon.",
+          "Neil Armstrong was the first person to walk on the Moon.",
+          "Neil Armstrong was the first person to walk on the Moon.",
+          "Neil Armstrong was the first person to walk on the Moon.",
+          "Neil Armstrong was the first person to walk on the Moon."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "What is the speed of light in m/s?",
+      "keywords": [
+        "299792458",
+        "3\u00d710",
+        "3x10"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+        "correct": false,
+        "samples": [
+          "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+          "The speed of light in vacuum is approximately 299,792 kilometers per second.",
+          "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+          "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+          "The speed of light in a vacuum is approximately 299,792 kilometers per second (m/s).",
+          "The speed of light in a vacuum is approximately 299,792 kilometers per second.",
+          "The speed of light in a vacuum is approximately 299,792 kilometers per second."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "What year was the Eiffel Tower completed?",
+      "keywords": [
+        "1889"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The Eiffel Tower was completed in 1889.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The Eiffel Tower was completed in 1889.",
+        "correct": true,
+        "samples": [
+          "The Eiffel Tower was completed in 1889.",
+          "The Eiffel Tower was completed in 1889.",
+          "The Eiffel Tower was completed in 1889.",
+          "The Eiffel Tower was completed in 1889.",
+          "The Eiffel Tower was completed in 1889.",
+          "The Eiffel Tower was completed in 1889.",
+          "The Eiffel Tower was completed in 1889."
+        ]
+      },
+      "oscillation": 12
+    },
+    {
+      "question": "Who invented the World Wide Web?",
+      "keywords": [
+        "berners-lee",
+        "tim"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The World Wide Web was invented by Tim Berners-Lee, a British computer scientist and entrepreneur. He worked on the World Wide Web project at CERN, the European Organization for Nuclear Research, and was one of the original developers of the World Wide Web. Berners-Lee's work on the",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The World Wide Web (WWW) was first invented by Tim Berners-Lee, a British computer scientist, in 1989. He was working on a project called the World Wide Web Consortium (W3C). Berners-Lee's invention was a web browser that could display web",
+        "correct": true,
+        "samples": [
+          "The World Wide Web (WWW) was first invented by Tim Berners-Lee, a British computer scientist, in 1989. He was working on a project called the World Wide Web Consortium (W3C). Berners-Lee's invention was a web browser that could display web",
+          "The World Wide Web was invented by Tim Berners-Lee, a British computer scientist.",
+          "The World Wide Web (WWW) was invented by Tim Berners-Lee, a British computer scientist, in 1989. Berners-Lee worked on the World Wide Web project at CERN, the European Organization for Nuclear Research, in Switzerland, and it was launched in 1",
+          "The World Wide Web was invented by Tim Berners-Lee, a British computer scientist. He was working on a project to develop a computer program that could read and write information on the internet. Berners-Lee's work led to the creation of the World Wide Web, which is a network of",
+          "The World Wide Web (WWW) was first invented in the late 1980s by Tim Berners-Lee, a British computer scientist working at the British Computer Society. Berners-Lee's idea was to create a web of interconnected documents, called a World Wide Web page, that",
+          "The World Wide Web was invented by Tim Berners-Lee, an English computer scientist.",
+          "The World Wide Web (WWW) was invented by Tim Berners-Lee, an American computer scientist, in 1989. Berners-Lee worked on the World Wide Web project at CERN (the European Organization for Nuclear Research) as a student. He was inspired by the need"
+        ]
+      },
+      "oscillation": 14
+    },
+    {
+      "question": "What is the deepest lake in the world?",
+      "keywords": [
+        "baikal"
+      ],
+      "is_hard": true,
+      "greedy": {
+        "answer": "The deepest lake in the world is Lake Mead, located in the southwestern United States. It is the deepest lake in the world, with a depth of 10,400 feet (3,180 meters). Lake Mead is the second deepest lake in the world, after",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The deepest lake in the world is Lake Mead, located in Nevada, United States. Lake Mead is the deepest freshwater lake in the United States, with a depth of 10,430 feet (3,190 meters).",
+        "correct": false,
+        "samples": [
+          "The deepest lake in the world is Lake Mead, located in Nevada, United States. Lake Mead is the deepest freshwater lake in the United States, with a depth of 10,430 feet (3,190 meters).",
+          "The deepest lake in the world is Lake Mead, located in the southwestern United States. It is the deepest lake in North America and the world's second deepest lake, after Lake Minnetonka in Minnesota. Lake Mead is located in the state of Arizona and is fed by the Rio Grande",
+          "The deepest lake in the world is Lake Bonin, located in the Barents Sea, Norway. Lake Bonin is approximately 1,049 meters deep.",
+          "The deepest lake in the world is Lake Imitagh in the Himalayas, located in the Indian Himalayas. It is a freshwater lake that is approximately 4,239 feet deep at its deepest point.",
+          "The deepest lake in the world is Lake Albert in Namibia. It is located in the highest part of the Karoo Plateau in the southern part of the country. The lake is the deepest man-made body of water in the world, with a depth of 1,570 feet (",
+          "The deepest lake in the world is Lake Albert in Namibia, located on the border between South Africa and Namibia. It is approximately 4,500 feet deep.",
+          "The deepest lake in the world is Lake Annamalai in Thailand. It is located in the state of Kerala and is the deepest lake in South Asia. The lake is approximately 1,732 feet deep at its deepest point, making it the deepest lake in the world."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "What is the capital of France?",
+      "keywords": [
+        "paris"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The capital of France is Paris.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The capital of France is Paris.",
+        "correct": true,
+        "samples": [
+          "The capital of France is Paris.",
+          "The capital of France is Paris.",
+          "The capital of France is Paris.",
+          "The capital of France is Paris.",
+          "The capital of France is Paris.",
+          "The capital of France is Paris.",
+          "The capital of France is Paris."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "keywords": [
+        "shakespeare"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "Romeo and Juliet were written by William Shakespeare.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Romeo and Juliet were written by William Shakespeare.",
+        "correct": true,
+        "samples": [
+          "Romeo and Juliet were written by William Shakespeare.",
+          "Romeo and Juliet were written by William Shakespeare.",
+          "Romeo and Juliet were written by William Shakespeare.",
+          "Romeo and Juliet were written by William Shakespeare.",
+          "Romeo and Juliet were written by William Shakespeare.",
+          "Romeo and Juliet were written by William Shakespeare.",
+          "Romeo and Juliet were written by William Shakespeare."
+        ]
+      },
+      "oscillation": 14
+    },
+    {
+      "question": "What is 2 + 2?",
+      "keywords": [
+        "4",
+        "four"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "2 + 2 equals 4.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "2 + 2 equals 4.",
+        "correct": true,
+        "samples": [
+          "2 + 2 equals 4.",
+          "2 + 2 equals 4.",
+          "2 + 2 equals 4.",
+          "2 + 2 equals 4.",
+          "2 + 2 equals 4.",
+          "2 + 2 equals 4.",
+          "2 + 2 equals 4."
+        ]
+      },
+      "oscillation": 14
+    },
+    {
+      "question": "What is the largest planet?",
+      "keywords": [
+        "jupiter"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The largest planet in our solar system is Mercury. It is the only planet in our solar system that has no atmosphere, making it the only planet without a visible surface.",
+        "correct": false
+      },
+      "sc": {
+        "answer": "The largest planet is the planet Jupiter. It is not the largest planet in the solar system, but it is the fifth-largest planet in the solar system.",
+        "correct": true,
+        "samples": [
+          "The largest planet is Mercury.",
+          "The largest planet is Mercury.",
+          "The largest planet is Mercury.",
+          "The largest planet in our solar system is Saturn.",
+          "The largest planet in our solar system is Mercury. It is the only planet in our solar system that has no atmosphere and is the only planet with an atmosphere that is not affected by the sun's radiation.",
+          "The largest planet is Mercury.",
+          "The largest planet is the planet Jupiter. It is not the largest planet in the solar system, but it is the fifth-largest planet in the solar system."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "keywords": [
+        "100"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The boiling point of water is 100\u00b0C.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The boiling point of water is 100\u00b0C (212\u00b0F).",
+        "correct": true,
+        "samples": [
+          "The boiling point of water is 100\u00b0C (212\u00b0F).",
+          "The boiling point of water is 100 degrees Celsius.",
+          "The boiling point of water is 100\u00b0C.",
+          "The boiling point of water is approximately 100\u00b0C or 212\u00b0F.",
+          "The boiling point of water is approximately 100\u00b0C (212\u00b0F).",
+          "The boiling point of water is 100\u00b0C.",
+          "The boiling point of water is 100\u00b0C."
+        ]
+      },
+      "oscillation": 18
+    },
+    {
+      "question": "What year did World War II end?",
+      "keywords": [
+        "1945"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "World War II ended on September 2, 1945.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "World War II ended on 6th August 1945.",
+        "correct": true,
+        "samples": [
+          "World War II ended on 6th August 1945.",
+          "World War II ended on September 2, 1945.",
+          "World War II ended on September 2, 1945.",
+          "World War II ended on September 2, 1945.",
+          "World War II ended on September 2, 1945.",
+          "World War II ended on September 2, 1945.",
+          "World War II ended on September 2, 1945."
+        ]
+      },
+      "oscillation": 12
+    },
+    {
+      "question": "Who invented the telephone?",
+      "keywords": [
+        "bell",
+        "graham"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The telephone was first invented in 1876 by Alexander Graham Bell.",
+        "correct": true,
+        "samples": [
+          "The telephone was first invented in 1876 by Alexander Graham Bell.",
+          "The telephone was invented by Alexander Graham Bell in 1876.",
+          "The telephone was invented by Alexander Graham Bell in 1876.",
+          "The telephone was invented by Alexander Graham Bell in 1876.",
+          "The telephone was invented by Alexander Graham Bell in 1876.",
+          "The telephone was invented by Alexander Graham Bell in 1876.",
+          "The telephone was invented by Alexander Graham Bell in 1876."
+        ]
+      },
+      "oscillation": 12
+    },
+    {
+      "question": "What is H2O?",
+      "keywords": [
+        "water"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "H2O is a chemical compound consisting of two hydrogen atoms and one oxygen atom. It is the most common form of water and is found in oceans, lakes, rivers, and other bodies of water. H2O is also a common solvent and is used in many different applications, including cleaning,",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Water is a molecule of hydrogen and oxygen atoms. It is the most common form of water, and is essential for life on Earth. It is composed of two hydrogen atoms and one oxygen atom. H2O is the most abundant water molecule, and it is found in oceans, lakes, rivers,",
+        "correct": true,
+        "samples": [
+          "Water is a molecule of hydrogen and oxygen atoms. It is the most common form of water, and is essential for life on Earth. It is composed of two hydrogen atoms and one oxygen atom. H2O is the most abundant water molecule, and it is found in oceans, lakes, rivers,",
+          "H2O is a chemical compound composed of two hydrogen atoms and one oxygen atom. It is the most common water molecule, with a molecular weight of approximately 18.01 grams per mole. H2O is a polar molecule, meaning that it is polar and has a positive charge on",
+          "H2O is a chemical compound composed of two hydrogen atoms and one oxygen atom. It is a vital component of water, which is the basic ingredient of all living organisms. H2O is also a common name for the water in which humans, animals, and plants live.",
+          "H2O is water. It is a molecule that contains two hydrogen atoms and one oxygen atom. It is the most common molecule in the Earth's atmosphere and is essential for life on Earth.",
+          "H2O is the chemical symbol for water. It is the most common chemical in the world and is a component of the Earth's oceans and atmosphere. H2O is also the most abundant type of water on Earth and is used in many biological processes, such as photosynthesis and respiration.",
+          "H2O is a liquid that is composed of two hydrogen atoms and one oxygen atom. It is the most common form of water and is the most abundant form of water in the Earth's oceans. It is also the most abundant form of water in the atmosphere. H2O is composed of two",
+          "Water is a chemical compound consisting of two hydrogen atoms and one oxygen atom. It is the universal solvent and is used in many applications, including for cleaning, cooling, and fueling."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "What language is spoken in Brazil?",
+      "keywords": [
+        "portuguese"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "Portuguese",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Portuguese",
+        "correct": true,
+        "samples": [
+          "Portuguese",
+          "Portuguese is spoken in Brazil.",
+          "Portuguese",
+          "Portuguese",
+          "Brazil is a country in South America, spoken primarily by the Brazilian population. The official language is Portuguese, but it is also spoken by a significant number of other minority groups, including the Hausa, Finno-Ugric, and Yoruba-speaking populations. Spanish is also a widely spoken language",
+          "Portuguese is spoken in Brazil.",
+          "The official language of Brazil is Portuguese."
+        ]
+      },
+      "oscillation": 18
+    },
+    {
+      "question": "What is the largest ocean?",
+      "keywords": [
+        "pacific"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The largest ocean is the Pacific Ocean.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The largest ocean is the Pacific Ocean.",
+        "correct": true,
+        "samples": [
+          "The largest ocean is the Pacific Ocean.",
+          "The largest ocean is the Pacific Ocean.",
+          "The largest ocean is the Pacific Ocean.",
+          "The largest ocean is the Pacific Ocean.",
+          "The largest ocean is the Pacific Ocean. It is located between Asia and Australia, and is the world's second-largest ocean after the Indian Ocean. The Pacific Ocean is characterized by its warm, temperate waters, which are home to a wide variety of marine life, including whales, dolphins, and sea",
+          "The largest ocean is the Pacific Ocean.",
+          "The largest ocean is the Pacific Ocean."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "keywords": [
+        "leonardo",
+        "da vinci"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "Leonardo da Vinci painted the Mona Lisa.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Leonardo da Vinci painted the Mona Lisa. The painting is a portrait of a woman with a face depicting a smile, and is one of the most famous paintings in the world. It is considered one of the greatest paintings in history and has been the subject of countless artworks, paintings, and films over",
+        "correct": true,
+        "samples": [
+          "Leonardo da Vinci painted the Mona Lisa. The painting is a portrait of a woman with a face depicting a smile, and is one of the most famous paintings in the world. It is considered one of the greatest paintings in history and has been the subject of countless artworks, paintings, and films over",
+          "Leonardo da Vinci painted the Mona Lisa.",
+          "Leonardo da Vinci painted the Mona Lisa.",
+          "Leonardo da Vinci painted the Mona Lisa.",
+          "Leonardo da Vinci painted the Mona Lisa.",
+          "Leonardo da Vinci painted the Mona Lisa.",
+          "Leonardo da Vinci painted the Mona Lisa."
+        ]
+      },
+      "oscillation": 12
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "keywords": [
+        "au"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The chemical symbol for gold is Au.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The chemical symbol for gold is Au.",
+        "correct": true,
+        "samples": [
+          "The chemical symbol for gold is Au.",
+          "The chemical symbol for gold is Au.",
+          "The chemical symbol for gold is Au.",
+          "The chemical symbol for gold is Au.",
+          "The chemical symbol for gold is Au.",
+          "The chemical symbol for gold is Au.",
+          "The chemical symbol for gold is Au."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "What planet is closest to the Sun?",
+      "keywords": [
+        "mercury"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "Mercury.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The closest planet to the Sun is Mercury.",
+        "correct": true,
+        "samples": [
+          "The closest planet to the Sun is Mercury.",
+          "Mercury.",
+          "Mercury.",
+          "Mercury.",
+          "Mercury.",
+          "Mercury.",
+          "Mercury."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "What is the largest country by area?",
+      "keywords": [
+        "russia"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The largest country by area is Russia. It has an area of approximately 17 million square kilometers (6.2 million square miles).",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The largest country by area is Russia. It covers an area of approximately 17 million square kilometers.",
+        "correct": true,
+        "samples": [
+          "The largest country by area is Russia. It covers an area of approximately 17 million square kilometers.",
+          "The largest country by area is Russia, which has an area of approximately 17 million square kilometers (7.7 million square miles).",
+          "The largest country by area is Russia.",
+          "The largest country by area is India.",
+          "The largest country by area is Russia. It has an area of approximately 17.3 million square kilometers, which makes it the second largest country by area after Alaska.",
+          "The largest country by area is Russia. It covers an area of approximately 17 million square kilometers.",
+          "The largest country by area is Russia."
+        ]
+      },
+      "oscillation": 15
+    },
+    {
+      "question": "Who wrote 1984?",
+      "keywords": [
+        "orwell"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "George Orwell wrote 1984.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "George Orwell wrote 1984.",
+        "correct": true,
+        "samples": [
+          "George Orwell wrote 1984.",
+          "George Orwell wrote 1984.",
+          "George Orwell wrote 1984.",
+          "George Orwell wrote 1984.",
+          "George Orwell wrote 1984.",
+          "George Orwell wrote 1984.",
+          "George Orwell wrote 1984."
+        ]
+      },
+      "oscillation": 18
+    },
+    {
+      "question": "What is the square root of 144?",
+      "keywords": [
+        "12"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The square root of 144 is 12.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The square root of 144 is 12.",
+        "correct": true,
+        "samples": [
+          "The square root of 144 is 12.",
+          "The square root of 144 is 12.",
+          "The square root of 144 is 12.",
+          "The square root of 144 is 12.",
+          "The square root of 144 is 12.",
+          "The square root of 144 is 12.",
+          "The square root of 144 is 12."
+        ]
+      },
+      "oscillation": 17
+    },
+    {
+      "question": "What gas do plants absorb?",
+      "keywords": [
+        "co2",
+        "carbon dioxide"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "Plants absorb carbon dioxide from the air.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Carbon dioxide.",
+        "correct": true,
+        "samples": [
+          "Carbon dioxide.",
+          "Carbon dioxide.",
+          "Oxygen.",
+          "Plants absorb water vapor.",
+          "Plants absorb water and carbon dioxide from the air.",
+          "Carbon dioxide.",
+          "Chlorophyll."
+        ]
+      },
+      "oscillation": 20
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "keywords": [
+        "tokyo"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "Tokyo.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "Tokyo.",
+        "correct": true,
+        "samples": [
+          "Tokyo.",
+          "Tokyo.",
+          "Tokyo.",
+          "Tokyo.",
+          "Tokyo.",
+          "Tokyo.",
+          "The capital of Japan is Tokyo."
+        ]
+      },
+      "oscillation": 17
+    },
+    {
+      "question": "How many bones are in the human body?",
+      "keywords": [
+        "206"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "There are 206 bones in the human body.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The human body contains 206 bones.",
+        "correct": true,
+        "samples": [
+          "The human body contains 206 bones.",
+          "There are 206 bones in the human body.",
+          "There are 206 bones in the human body.",
+          "The human body contains 206 bones.",
+          "There are 206 bones in the human body.",
+          "There are 206 bones in the human body, including 106 pairs of long bones, 24 pairs of short bones, 106 bones of other structures, and 4 bones of unknown structure.",
+          "There are approximately 206 bones in the human body."
+        ]
+      },
+      "oscillation": 16
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "keywords": [
+        "yen"
+      ],
+      "is_hard": false,
+      "greedy": {
+        "answer": "The currency of Japan is the Japanese yen.",
+        "correct": true
+      },
+      "sc": {
+        "answer": "The currency of Japan is the yen.",
+        "correct": true,
+        "samples": [
+          "The currency of Japan is the yen.",
+          "The currency of Japan is the Japanese yen.",
+          "The currency of Japan is the Japanese yen.",
+          "The currency of Japan is the Japanese yen.",
+          "The currency of Japan is the Japanese yen.",
+          "The currency of Japan is the Japanese yen.",
+          "The currency of Japan is the Japanese yen."
+        ]
+      },
+      "oscillation": 17
+    }
+  ]
+}

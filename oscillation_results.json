@@ -1,0 +1,375 @@
+{
+  "n_total": 40,
+  "n_correct": 34,
+  "n_wrong": 6,
+  "results": [
+    {
+      "question": "What is the capital city of France?",
+      "answer": "The capital city of France is Paris.",
+      "is_correct": true,
+      "oscillation": 17,
+      "lock_in_layer": 23,
+      "confidence": 0.7666137218475342,
+      "first_token": "The"
+    },
+    {
+      "question": "What year did World War II end?",
+      "answer": "World War II ended on September 2, 1945.",
+      "is_correct": true,
+      "oscillation": 15,
+      "lock_in_layer": 23,
+      "confidence": 0.8641384840011597,
+      "first_token": "World"
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "answer": "Romeo and Juliet were written by William Shakespeare.",
+      "is_correct": true,
+      "oscillation": 15,
+      "lock_in_layer": 22,
+      "confidence": 0.9039052724838257,
+      "first_token": "R"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "answer": "The chemical symbol for gold is Au.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.9753026366233826,
+      "first_token": "The"
+    },
+    {
+      "question": "How many sides does a hexagon have?",
+      "answer": "A hexagon has six sides.",
+      "is_correct": true,
+      "oscillation": 16,
+      "lock_in_layer": 22,
+      "confidence": 0.9848049283027649,
+      "first_token": "A"
+    },
+    {
+      "question": "What planet is closest to the Sun?",
+      "answer": "The closest planet to the Sun is Mercury.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 23,
+      "confidence": 0.554660439491272,
+      "first_token": "The"
+    },
+    {
+      "question": "What is the boiling point of water in Celsius?",
+      "answer": "The boiling point of water in Celsius is 100\u00b0C.",
+      "is_correct": true,
+      "oscillation": 15,
+      "lock_in_layer": 22,
+      "confidence": 0.9096134305000305,
+      "first_token": "The"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": "Leonardo da Vinci painted the Mona Lisa.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.7004647850990295,
+      "first_token": "Leon"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "answer": "The largest ocean on Earth is the Pacific Ocean.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.9729764461517334,
+      "first_token": "The"
+    },
+    {
+      "question": "In what year did man first land on the Moon?",
+      "answer": "Man first landed on the Moon in 1969.",
+      "is_correct": true,
+      "oscillation": 19,
+      "lock_in_layer": 23,
+      "confidence": 0.7496428489685059,
+      "first_token": "Man"
+    },
+    {
+      "question": "What is the speed of light in km/s?",
+      "answer": "The speed of light in vacuum is approximately 299,792 kilometers per second.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.9909836053848267,
+      "first_token": "The"
+    },
+    {
+      "question": "Who invented the telephone?",
+      "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+      "is_correct": true,
+      "oscillation": 17,
+      "lock_in_layer": 22,
+      "confidence": 0.6719688177108765,
+      "first_token": "The"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "answer": "The largest planet in our solar system is Jupiter.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.9196037650108337,
+      "first_token": "The"
+    },
+    {
+      "question": "What language is spoken in Brazil?",
+      "answer": "Brazil is spoken in Portuguese.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 23,
+      "confidence": 0.41667115688323975,
+      "first_token": "Brazil"
+    },
+    {
+      "question": "What is the square root of 144?",
+      "answer": "The square root of 144 is 12.",
+      "is_correct": true,
+      "oscillation": 16,
+      "lock_in_layer": 22,
+      "confidence": 0.9577439427375793,
+      "first_token": "The"
+    },
+    {
+      "question": "Who won the Nobel Prize in Physics in 2022?",
+      "answer": "The Nobel Prize in Physics was won by Marie Curie in 2022.",
+      "is_correct": false,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.164630725979805,
+      "first_token": "The"
+    },
+    {
+      "question": "What year was the Eiffel Tower completed?",
+      "answer": "The Eiffel Tower was completed in 1889.",
+      "is_correct": true,
+      "oscillation": 15,
+      "lock_in_layer": 22,
+      "confidence": 0.9886017441749573,
+      "first_token": "The"
+    },
+    {
+      "question": "What is the capital of Kazakhstan?",
+      "answer": "The capital of Kazakhstan is Astana.",
+      "is_correct": true,
+      "oscillation": 16,
+      "lock_in_layer": 22,
+      "confidence": 0.9611212015151978,
+      "first_token": "The"
+    },
+    {
+      "question": "Who wrote the novel 1984?",
+      "answer": "George Orwell wrote the novel 1984.",
+      "is_correct": true,
+      "oscillation": 17,
+      "lock_in_layer": 23,
+      "confidence": 0.7680823802947998,
+      "first_token": "George"
+    },
+    {
+      "question": "What is the atomic number of carbon?",
+      "answer": "The atomic number of carbon is 6.",
+      "is_correct": true,
+      "oscillation": 19,
+      "lock_in_layer": 22,
+      "confidence": 0.8893030285835266,
+      "first_token": "The"
+    },
+    {
+      "question": "What year was Python programming language first released?",
+      "answer": "Python programming language was first released in 1991.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 23,
+      "confidence": 0.9034177660942078,
+      "first_token": "Python"
+    },
+    {
+      "question": "What is the half-life of Carbon-14?",
+      "answer": "The half-life of Carbon-14 is 5730 years.",
+      "is_correct": true,
+      "oscillation": 16,
+      "lock_in_layer": 22,
+      "confidence": 0.7641599774360657,
+      "first_token": "The"
+    },
+    {
+      "question": "Who is the CEO of NVIDIA as of 2024?",
+      "answer": "As of 2024, NVIDIA's CEO is Shuhang Wu.",
+      "is_correct": false,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.6526366472244263,
+      "first_token": "As"
+    },
+    {
+      "question": "What is the deepest lake in the world?",
+      "answer": "The deepest lake in the world is Lake Okhotsk, located in Russia.",
+      "is_correct": false,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.8655683398246765,
+      "first_token": "The"
+    },
+    {
+      "question": "What is the formula for water?",
+      "answer": "The formula for water is H2O.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.8187819719314575,
+      "first_token": "The"
+    },
+    {
+      "question": "What country has the most natural lakes?",
+      "answer": "The country with the most natural lakes is Norway.",
+      "is_correct": false,
+      "oscillation": 19,
+      "lock_in_layer": 22,
+      "confidence": 0.47201308608055115,
+      "first_token": "The"
+    },
+    {
+      "question": "What year was the first iPhone released?",
+      "answer": "The first iPhone was released in 2007.",
+      "is_correct": true,
+      "oscillation": 17,
+      "lock_in_layer": 22,
+      "confidence": 0.9860743880271912,
+      "first_token": "The"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "answer": "The currency of Japan is the Japanese yen.",
+      "is_correct": true,
+      "oscillation": 16,
+      "lock_in_layer": 22,
+      "confidence": 0.9896265268325806,
+      "first_token": "The"
+    },
+    {
+      "question": "Who developed the theory of general relativity?",
+      "answer": "General relativity was developed by Albert Einstein.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.4734531044960022,
+      "first_token": "General"
+    },
+    {
+      "question": "What is the tallest mountain on Earth?",
+      "answer": "Mount Everest is the tallest mountain on Earth.",
+      "is_correct": true,
+      "oscillation": 17,
+      "lock_in_layer": 23,
+      "confidence": 0.6237961053848267,
+      "first_token": "Mount"
+    },
+    {
+      "question": "What is the capital of Burkina Faso?",
+      "answer": "The capital of Burkina Faso is Ouagadougou.",
+      "is_correct": true,
+      "oscillation": 18,
+      "lock_in_layer": 22,
+      "confidence": 0.9516496658325195,
+      "first_token": "The"
+    },
+    {
+      "question": "Who invented the World Wide Web?",
+      "answer": "The World Wide Web was invented by Tim Berners-Lee.",
+      "is_correct": true,
+      "oscillation": 19,
+      "lock_in_layer": 22,
+      "confidence": 0.9327930808067322,
+      "first_token": "The"
+    },
+    {
+      "question": "What year was the Magna Carta signed?",
+      "answer": "The Magna Carta was signed on 12 June 1215.",
+      "is_correct": true,
+      "oscillation": 17,
+      "lock_in_layer": 22,
+      "confidence": 0.9916563034057617,
+      "first_token": "The"
+    },
+    {
+      "question": "What is the rarest blood type?",
+      "answer": "The rarest blood type is O negative.",
+      "is_correct": false,
+      "oscillation": 20,
+      "lock_in_layer": 22,
+      "confidence": 0.7131379842758179,
+      "first_token": "The"
+    },
+    {
+      "question": "What is the smallest country in the world by area?",
+      "answer": "The smallest country in the world by area is Saint Helena.",
+      "is_correct": false,
+      "oscillation": 16,
+      "lock_in_layer": 22,
+      "confidence": 0.9124315977096558,
+      "first_token": "The"
+    },
+    {
+      "question": "What programming language was Linux written in?",
+      "answer": "Linux was written in C.",
+      "is_correct": true,
+      "oscillation": 19,
+      "lock_in_layer": 23,
+      "confidence": 0.9540649056434631,
+      "first_token": "Linux"
+    },
+    {
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "answer": "The first woman to win a Nobel Prize was Marie Curie.",
+      "is_correct": true,
+      "oscillation": 16,
+      "lock_in_layer": 23,
+      "confidence": 0.38166022300720215,
+      "first_token": "The"
+    },
+    {
+      "question": "What is the chemical formula for table salt?",
+      "answer": "The chemical formula for table salt is NaCl.",
+      "is_correct": true,
+      "oscillation": 20,
+      "lock_in_layer": 23,
+      "confidence": 0.5220892429351807,
+      "first_token": "The"
+    },
+    {
+      "question": "What year was Google founded?",
+      "answer": "Google was founded in 1998.",
+      "is_correct": true,
+      "oscillation": 16,
+      "lock_in_layer": 23,
+      "confidence": 0.8964638710021973,
+      "first_token": "Google"
+    },
+    {
+      "question": "What is the longest river in Africa?",
+      "answer": "The longest river in Africa is the Nile.",
+      "is_correct": true,
+      "oscillation": 16,
+      "lock_in_layer": 22,
+      "confidence": 0.9584787487983704,
+      "first_token": "The"
+    }
+  ],
+  "stats": {
+    "mean_osc_correct": 17.176470588235293,
+    "mean_osc_wrong": 18.166666666666668,
+    "mean_conf_correct": 0.8263049563940834,
+    "mean_conf_wrong": 0.6300697301824888,
+    "auc_oscillation": 0.7009803921568628,
+    "auc_confidence": 0.7598039215686275
+  }
+}

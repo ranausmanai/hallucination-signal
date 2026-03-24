@@ -1,0 +1,197 @@
+[
+  {
+    "question": "Who won the Nobel Prize in Chemistry in 2023?",
+    "normal_answer": "In 2023, the Nobel Prize in Chemistry was awarded to the German chemist Friedrich W\u00f6hler for his work on the synthesis of the first organic molecules.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "In",
+      "3.0": "In",
+      "5.0": "In",
+      "10.0": "The",
+      "-1.0": "In",
+      "-3.0": "In"
+    }
+  },
+  {
+    "question": "What is the melting point of tungsten in Celsius?",
+    "normal_answer": "Tungsten has a melting point of 1,000\u00b0C.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "T",
+      "3.0": "T",
+      "5.0": "T",
+      "10.0": "T",
+      "-1.0": "T",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "Who was the 30th president of the United States?",
+    "normal_answer": "The 30th president of the United States was William Howard Taft.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the half-life of uranium-235 in years?",
+    "normal_answer": "The half-life of uranium-235 is 5730 years.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "U",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the capital of Kyrgyzstan?",
+    "normal_answer": "The capital of Kyrgyzstan is Bishkek.",
+    "normal_correct": true,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "Who is the prime minister of New Zealand as of 2024?",
+    "normal_answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the speed of sound in water in m/s?",
+    "normal_answer": "The speed of sound in water is approximately 1450 meters per second.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the largest desert in the world by area?",
+    "normal_answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What country has the most UNESCO World Heritage Sites?",
+    "normal_answer": "The country with the most UNESCO World Heritage Sites is France.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the atomic weight of plutonium?",
+    "normal_answer": "Plutonium has an atomic weight of 238.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "Pl",
+      "3.0": "Pl",
+      "5.0": "Pl",
+      "10.0": "Pl",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the rarest blood type?",
+    "normal_answer": "The rarest blood type is O negative.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "Rh",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the GDP of Vietnam in 2023 in USD?",
+    "normal_answer": "The GDP of Vietnam in 2023 is estimated to be approximately $1.5 trillion USD.",
+    "normal_correct": false,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "As"
+    }
+  },
+  {
+    "question": "Who was the first female prime minister of the UK?",
+    "normal_answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+    "normal_correct": true,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the half-life of Carbon-14 in years?",
+    "normal_answer": "The half-life of Carbon-14 is 5730 years.",
+    "normal_correct": true,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "Carbon",
+      "5.0": "Carbon",
+      "10.0": "Carbon",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  },
+  {
+    "question": "What is the capital of Burkina Faso?",
+    "normal_answer": "The capital of Burkina Faso is Ouagadougou.",
+    "normal_correct": true,
+    "steered_first_tokens": {
+      "1.0": "The",
+      "3.0": "The",
+      "5.0": "The",
+      "10.0": "The",
+      "-1.0": "The",
+      "-3.0": "The"
+    }
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "factual_layer": 21,
+  "n_train": 40,
+  "n_test": 15,
+  "standard_correct": 6,
+  "factual_head_correct": 2,
+  "dualhead_correct": 3,
+  "results": [
+    {
+      "question": "What is the capital of France?",
+      "oscillation": 15,
+      "standard_ans": "The capital of France is Paris.",
+      "standard_correct": true,
+      "factual_first_tok": " Paris",
+      "factual_first_correct": true,
+      "dualhead_correct": true
+    },
+    {
+      "question": "What country has the most UNESCO World Heritage Sites?",
+      "oscillation": 15,
+      "standard_ans": "The country with the most UNESCO World Heritage Sites is France.",
+      "standard_correct": false,
+      "factual_first_tok": " Russia",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What is the melting point of tungsten in Celsius?",
+      "oscillation": 17,
+      "standard_ans": "Tungsten has a melting point of 1,000\u00b0C.",
+      "standard_correct": false,
+      "factual_first_tok": " ",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What is the half-life of uranium-235 in years?",
+      "oscillation": 16,
+      "standard_ans": "The half-life of uranium-235 is 5730 years.",
+      "standard_correct": false,
+      "factual_first_tok": " ",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What is the largest desert in the world by area?",
+      "oscillation": 15,
+      "standard_ans": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+      "standard_correct": false,
+      "factual_first_tok": " The",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What is the atomic weight of plutonium?",
+      "oscillation": 21,
+      "standard_ans": "Plutonium has an atomic weight of 238.",
+      "standard_correct": false,
+      "factual_first_tok": " ",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "Who was the 30th president of the United States?",
+      "oscillation": 13,
+      "standard_ans": "The 30th president of the United States was William Howard Taft.",
+      "standard_correct": false,
+      "factual_first_tok": " Be",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "Who was the first female prime minister of the UK?",
+      "oscillation": 15,
+      "standard_ans": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+      "standard_correct": true,
+      "factual_first_tok": " Thomas",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What year was the WHO founded?",
+      "oscillation": 12,
+      "standard_ans": "The World Health Organization (WHO) was founded on September 3, 1945.",
+      "standard_correct": false,
+      "factual_first_tok": " ",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What is the largest planet?",
+      "oscillation": 16,
+      "standard_ans": "The largest planet in our solar system is Mercury. It is the only planet in our solar system that has no atmosphere, making it the only planet without a visible surface.",
+      "standard_correct": false,
+      "factual_first_tok": " Jupiter",
+      "factual_first_correct": true,
+      "dualhead_correct": true
+    },
+    {
+      "question": "What is the capital of Kyrgyzstan?",
+      "oscillation": 18,
+      "standard_ans": "The capital of Kyrgyzstan is Bishkek.",
+      "standard_correct": true,
+      "factual_first_tok": " Tokyo",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What is the capital of Burkina Faso?",
+      "oscillation": 16,
+      "standard_ans": "The capital of Burkina Faso is Ouagadougou.",
+      "standard_correct": true,
+      "factual_first_tok": " Paris",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What is the speed of sound in water in m/s?",
+      "oscillation": 18,
+      "standard_ans": "The speed of sound in water is approximately 1450 meters per second.",
+      "standard_correct": false,
+      "factual_first_tok": " ",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "oscillation": 18,
+      "standard_ans": "The boiling point of water is 100\u00b0C.",
+      "standard_correct": true,
+      "factual_first_tok": " ",
+      "factual_first_correct": false,
+      "dualhead_correct": false
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "oscillation": 14,
+      "standard_ans": "Romeo and Juliet were written by William Shakespeare.",
+      "standard_correct": true,
+      "factual_first_tok": " William",
+      "factual_first_correct": false,
+      "dualhead_correct": true
+    }
+  ]
+}

@@ -1,0 +1,1346 @@
+{
+  "n_total": 30,
+  "n_hard": 20,
+  "summary": {
+    "normal (baseline)": {
+      "total": 18,
+      "hard": 9
+    },
+    "L21\u2192L23 \u03b1=0.3": {
+      "total": 16,
+      "hard": 7
+    },
+    "L21\u2192L23 \u03b1=0.5": {
+      "total": 16,
+      "hard": 7
+    },
+    "L21\u2192L23 \u03b1=0.7": {
+      "total": 7,
+      "hard": 2
+    },
+    "L20\u2192L23 \u03b1=0.5": {
+      "total": 9,
+      "hard": 3
+    },
+    "L22\u2192L23 \u03b1=0.5": {
+      "total": 21,
+      "hard": 11
+    },
+    "L21\u2192L23 \u03b1=1.5 (amplified)": {
+      "total": 2,
+      "hard": 0
+    }
+  },
+  "per_question": [
+    {
+      "question": "Who was the 30th president of the United States?",
+      "keywords": [
+        "coolidge",
+        "calvin"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The 30th president of the United States was William Howard Taft.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The 30th president of the United States was George H. W. Bush. He served from January 20, 2001, to January 20, 2009.",
+          "correct": false,
+          "oscillation": 13
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "George Washington was the 30th president of the United States. He served two terms as president between January 20 and January 20, 1800.",
+          "correct": false,
+          "oscillation": 13
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "George Washington was the 30th president of the United States. He served two consecutive\u4efb\u671f\uff0c from January 20th 1800 to January 20th 1801.",
+          "correct": false,
+          "oscillation": 13
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "George Washington was the 30th president of the United States. He served from January 20th, 1789 until his death on January 20th, 1804. He was born in Pennsylvania and died in Washington, DC. Prior to his presidency",
+          "correct": false,
+          "oscillation": 13
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The 30th president of the United States was George Washington.",
+          "correct": false,
+          "oscillation": 13
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u4e60\u6c11\u4e3b\u515a Party\u4e3b\u5e2d\u5019\u9009\u4eba candidates\u5019\u9009\u4eba\u7684\u540d\u79f0\u3002\u5177\u4f53\u6765\u8bf4\uff0c\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba\u5019\u9009\u4eba",
+          "correct": false,
+          "oscillation": 13
+        }
+      }
+    },
+    {
+      "question": "What is the melting point of tungsten in Celsius?",
+      "keywords": [
+        "3422",
+        "3400"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "Tungsten has a melting point of 1,000\u00b0C.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The melting point of tungsten in Celsius is approximately 1063 degrees Celsius.",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The melting point of tungsten is approximately 166\u00b0C.",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The melting point of tungsten is approximately Celsius.",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The melting point of tungsten is approximately Celsius.",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "Tungsten has a melting point of 1,220 degrees Celsius.",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "The\u878d\u5316\u70b9\u662f\u6e29\u5ea6\u964d\u5230\u4f4e\u4e8e\u6e29\u5ea6\u4f53\u7cfb\u4e2d\u7269\u8d28\u7684\u5b9e\u9645\u6e29\u5ea6\u65f6\u6240\u53d1\u751f\u7684\u6e29\u5ea6\u53d8\u5316\u91cf\u3002\u5728\u81ea\u7136\u754c\u4e2d\uff0c\u6e29\u5ea6\u964d\u5230\u4f4e\u4e8e\u6e29\u5ea6\u4f53\u7cfb\u4e2d\u7269\u8d28\u7684\u5b9e\u9645\u6e29\u5ea6\u65f6\u6240\u53d1\u751f\u7684\u6e29\u5ea6\u53d8\u5316\u91cf\u53eb\u4f5c\u6e29\u5ea6\u5dee\u3002\u6e29\u5ea6\u5dee\u8d8a\u5927\uff0c\u6e29\u5ea6\u53d8\u5316\u8d8a\u5927\u3002\u56e0\u6b64\uff0c\u6e29\u5ea6\u5dee\u8d8a\u5927\uff0c\u6e29\u5ea6\u5dee",
+          "correct": false,
+          "oscillation": 17
+        }
+      }
+    },
+    {
+      "question": "What is the half-life of uranium-235 in years?",
+      "keywords": [
+        "703 million",
+        "703",
+        "700"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The half-life of uranium-235 is 5730 years.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The half-life of uranium-235 is approximately 573 years.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The half-life of uranium-235 is approximately 573 days.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The half-life of uranium-235 is approximately 573 days.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The half-life of uranium-235 is approximately 573 days. This means that after every five years, half of the original amount of uranium remains.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The half-life of uranium-235 is about 573 years.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "The responseBody\u65f6\u95f4\u70b9\u662f\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838",
+          "correct": false,
+          "oscillation": 16
+        }
+      }
+    },
+    {
+      "question": "What is the largest desert in the world by area?",
+      "keywords": [
+        "antarctica",
+        "antarctic"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 2 million square kilometers.",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The largest desert in the world by area is the Sahara Desert. It covers approximately 2% of Earth's\u603b\u9762\u79ef\u9762\u79ef\u3002",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The largest desert in the world by area is\u6c99\u6f20\u6208\u58c1\u3002",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The largest desert in the world by area is Sahara Desert. It covers\u9762\u79ef\u7ea64 million square kilometers. It is located in northern Africa and is bordered by Algeria westward, Morocco eastward, Tunisia southward, Libya northward, Sudan westward, Sudan eastward, Sudan southward, Sudan west",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of about 14.5 million square kilometers.",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u6c99\u6f20\u6392\u540d\u7b2c\u4e00\u7684\u662f\u6c99\u6f20\u5316\u7684\u6c99\u6f20\u4e3b\u4f53\u2014\u2014\u6c99\u6a21\u578b\u57df\u3002\u5b83\u7684\u603b\u9762\u79ef\u8fbe\u7ea64\u4e07\u5e73\u65b9\u5343\u7c73\u3002\u5b83\u7684\u603b\u9762\u79ef\u8fbe\u7ea64\u4e07\u5e73\u65b9\u5343\u7c73\u3002\u5b83\u7684\u603b\u9762\u79ef\u8fbe\u7ea64\u4e07\u5e73\u65b9\u5343\u7c73\u3002\u5b83\u7684\u603b\u9762\u79ef\u8fbe\u7ea64\u4e07\u5e73\u65b9\u5343\u7c73\u3002\u5b83\u7684\u603b\u9762\u79ef\u8fbe\u7ea64\u4e07\u5e73\u65b9\u5343\u7c73\u3002\u5b83\u7684\u603b\u9762\u79ef\u8fbe",
+          "correct": false,
+          "oscillation": 15
+        }
+      }
+    },
+    {
+      "question": "What country has the most UNESCO World Heritage Sites?",
+      "keywords": [
+        "italy",
+        "china"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The country with the most UNESCO World Heritage Sites is France.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The country with the most UNESCO World Heritage Sites is France.",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The country with the most UNESCO World Heritage Sites is France.",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The country with the most UNESCO World Heritage Sites is France. There are 36 UNESCO World Heritage Sites in France.",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The United States has the most UNESCO World Heritage Sites. The list includes sites such as the Statue of Liberty in New York City, the Statue of Liberty National Monument in New York City, the Statue of Liberty Memorial in New York City, the Statue of Liberty Museum in New York City, the Statue of",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The country with the most UNESCO World Heritage Sites is China.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "The\u56fd\u5bb6\u62e5\u6709\u6700\u591a\u7684 UNESCO\u4e16\u754c\u6587\u5316\u9057\u4ea7 sites\u56fd\u5bb6\u662f\u4e2d\u56fd\u3002\u5b83\u4eec\u5305\u62ec\u5305\u62ec historicsites\u5728\u5185\u7684\u8bb8\u591a sites\u3002\u5b83\u4eec\u5305\u62ec historic sites\u5728\u5185\u7684\u8bb8\u591asites\u3002\u5b83\u4eec\u5305\u62ec\u5386\u53f2\u6027 sites\u5728\u5185\u7684\u8bb8\u591a sites\u3002\u5b83\u4eec\u5305\u62ec\u5386\u53f2\u6027 sites\u5728\u5185\u7684\u8bb8\u591asites\u3002\u5b83\u4eec\u5305\u62ec\u5386\u53f2\u6027 sites\u5728\u5185\u7684\u8bb8\u591asites\u3002\u5b83\u4eec\u5305\u62ec\u5386\u53f2\u6027 sites\u5728\u5185\u7684\u8bb8\u591a sites",
+          "correct": false,
+          "oscillation": 15
+        }
+      }
+    },
+    {
+      "question": "What is the atomic weight of plutonium?",
+      "keywords": [
+        "244",
+        "242",
+        "239"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "Plutonium has an atomic weight of 238.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The atomic weight of plutonium is approximately 238.09999999999996.",
+          "correct": false,
+          "oscillation": 21
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The atomic weight of plutonium is approximately 238.09999999999996. However, this value may vary slightly due to rounding errors.",
+          "correct": false,
+          "oscillation": 21
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The atomic weight of plutonium is approximately \u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838",
+          "correct": false,
+          "oscillation": 21
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The atomic weight of plutonium is approximately 230.99999999999999. However, this value is based on the atomic number of plutonium being 96. Therefore, the actual atomic weight of plutonium may be slightly higher or",
+          "correct": false,
+          "oscillation": 21
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The atomic weight of plutonium is 238.019 u.",
+          "correct": false,
+          "oscillation": 21
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u539f\u5b50\u91cd\u91cf\u662f\u539f\u5b50\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838\u6838",
+          "correct": false,
+          "oscillation": 21
+        }
+      }
+    },
+    {
+      "question": "What is the rarest blood type?",
+      "keywords": [
+        "ab-",
+        "ab negative"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The rarest blood type is O negative.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The rarest blood type is Type A. Type A is the most common blood type and accounts for approximately 7% of the world population. Type B is the second most common blood type and accounts for approximately 1% of the world population. Type AB is the third most common blood type and",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The rarest blood type is Type A blood. Type A blood is characterized by having fewer red blood cells than Type B blood. Type B blood has fewer white blood cells than Type A blood, while Type AB blood has fewer red blood cells than Type B blood. Type AB blood is also known as",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The rarest blood type is Type A blood. Type A blood is characterized by having fewer cells than Type B blood, which means it produces fewer\u7ea2\u8840\u7403\u7ea2\u7ec6\u80de\u7ea2\u7ec6\u80de\u3002 Type A blood is rare because it produces fewer\u7ea2\u8840\u7403\u7ea2\u7ec6\u80de\u7ea2\u7ec6\u80de\u3002 Type B blood is characterized by",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The rarest blood type is Type A blood. There are only approximately five thousand people worldwide who have this blood type. However, there are many people who have Type A blood but are unaware of it because they never receive blood from someone else. Additionally, there are many people who have Type A blood",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The rarest blood type is O blood.",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u8840\u6db2\u7c7b\u578b\u4e2d\u6700Rare\u7684\u662f\u8840\u578b A\u8840\u578b\u3002\u5b83\u662f\u6700\u7a00\u6709\u7684\u8840\u578b\u7c7b\u578b\uff0c\u5360\u6bd4\u4ec5\u4e3a\u7ea6\u767e\u5206\u4e4b\u4e8c\u5341\u4e03.7\u3002\u5176\u4ed6\u7c7b\u578b\u5305\u62ec\u8840\u578b B\u8840\u578b\u3001\u8840\u578b F\u00fchrung\u578b\u3001\u8840\u578b F\u00fchrung\u578b\u4ee5\u53ca\u5176\u4ed6\u7c7b\u578b\u3002\u8fd9\u4e9b\u7c7b\u578b\u4e2d\u5360\u6bd4\u6700\u5c11\u3002\u5176\u4ed6\u7c7b\u578b\u8fd8\u5305\u62ec\u8840\u578b",
+          "correct": false,
+          "oscillation": 18
+        }
+      }
+    },
+    {
+      "question": "Who won the Nobel Prize in Chemistry in 2023?",
+      "keywords": [
+        "bawendi",
+        "brus",
+        "ekimov"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "In 2023, the Nobel Prize in Chemistry was awarded to the German chemist Friedrich W\u00f6hler for his work on the synthesis of the first organic molecules.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "In 2023, Nobel Prize in Chemistry was awarded to\u4e09\u4f4d\u79d1\u5b66\u5bb6\uff0c\u5206\u522b\u662f\uff1a\u7f8e\u56fd\u79d1\u5b66\u5bb6\u7406\u67e5\u5fb7\u00b7\u65bd\u5bc6\u7279\uff08Richard P. Feynman\uff09\u3001\u82f1\u56fd\u79d1\u5b66\u5bb6\u7f57\u4f2f\u7279\u00b7\u7231\u5fb7\u534e\u00b7\u7231\u56e0\u65af\u5766\uff08Robert Einstein\uff09\u548c\u7f8e\u56fd\u79d1\u5b66\u5bb6\u7406\u67e5\u5fb7\u00b7",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The Nobel Prize in Chemistry was awarded to\u4e09\u4f4d\u79d1\u5b66\u5bb6\uff0c\u5206\u522b\u662f\u4e09\u4f4d\u79d1\u5b66\u5bb6\uff1a\u4e24\u4f4d\u6765\u81ea\u5fb7\u56fd\uff0c\u4e00\u4f4d\u6765\u81ea\u7f8e\u56fd\uff0c\u4ed6\u4eec\u5206\u522b\u662f\u5fb7\u56fd\u79d1\u5b66\u5bb6\u65bd\u5ef7\u5fb7\u5c14\uff08\u5fb7\u56fd\uff09\u3001\u7f8e\u56fd\u79d1\u5b66\u5bb6\u4f0d\u5c14\u592b\uff08\u7f8e\u56fd\uff09\u548c\u82f1\u56fd\u79d1\u5b66\u5bb6\u970d\u5c14\uff08\u82f1\u56fd\uff09\u3002\u4ed6\u4eec\u5171\u540c\u53d1\u73b0\u4e86\u5316\u5b66\u952e\u7684\u5f62\u6210\u8fc7\u7a0b\uff0c\u4ece\u800c\u63a8\u52a8",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "Nobel Prize in Chemistry was awarded to Nobel laureate Nobel Prize-winning scientist Nobel laureate Nobel Prize-winning scientist Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The Nobel Prize in Chemistry was awarded to Nobel laureate Nobel Prize-winning scientist Nobel laureate Nobel Prize-winning scientist Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laureate Nobel laure",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "In 2023, the Nobel Prize in Chemistry was awarded to the scientists Yvette L. Hwang and Yvette L. Hwang for their work on the discovery of the first chemical structure of a complex protein.",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u731d \ud83d\ude09\n\n\u731ddad.NetworkingItemImage\u94fe\u63a5<|endoftext|>Humanitarian\u4e3b\u4e49\u548c\u53ef\u6301\u7eed\u53d1\u5c55\u4e4b\u95f4\u7684\u5173\u7cfb\u5982\u4f55\uff1f\u5982\u4f55\u89e3\u51b3\u51b2\u7a81\uff1f\u5982\u4f55\u4fdd\u62a4\u73af\u5883\uff1f\u8fd9\u4e9b\u95ee\u9898\u90fd\u5173\u7cfb\u5230\u4eba\u7c7b\u793e\u4f1a\u7684\u53d1\u5c55\u548c\u53d1\u5c55\u3002\u5b83\u4eec\u5173\u7cfb\u5230\u4eba\u7c7b\u793e\u4f1a\u7684\u53d1\u5c55\u548c\u53d1\u5c55\u3002\u5b83\u4eec\u5173\u7cfb\u5230\u4eba\u7c7b\u793e\u4f1a\u7684\u53d1\u5c55\u548c\u53d1\u5c55\u3002\u5b83\u4eec\u5173\u7cfb\u5230\u4eba\u7c7b\u793e\u4f1a\u7684\u53d1\u5c55\u548c\u53d1\u5c55.\u5b83\u4eec",
+          "correct": false,
+          "oscillation": 18
+        }
+      }
+    },
+    {
+      "question": "What is the speed of sound in water in m/s?",
+      "keywords": [
+        "1480",
+        "1500",
+        "1498"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The speed of sound in water is approximately 1480 m/s.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The speed of sound in water is approximately 1450 meters per second.",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The speed of sound in water is approximately 1450 meters per second.",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The speed of sound in water is approximately 1\u5927\u6c14\u538b\u529b\u4e0b\u7684\u901f\u5ea6\u4e3a\u7ea6340\u7c73\u6bcf\u79d2\u3002",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The speed of sound in water is approximately 1470 meters per minute. This is due to the density of water being approximately half that of air. However, note that this is only true at temperatures around freezing point temperatures. At temperatures higher than freezing point, the density of water decreases further",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The speed of sound in water is approximately 1500 meters per second.",
+          "correct": true,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u58f0\u97f3\u7684\u901f\u5ea6\u5728\u7a7a\u6c14\u4e2d\u7ea6\u4e3a\u5149\u901f\u7684\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u5149\u901f\u7684\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6\u901f\u5ea6\u5927\u7ea6\u4e3a\u7ea6",
+          "correct": false,
+          "oscillation": 18
+        }
+      }
+    },
+    {
+      "question": "Who is the prime minister of New Zealand as of 2024?",
+      "keywords": [
+        "luxon",
+        "christopher"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The current Prime Minister of New Zealand is Jacinda Ardern. She has been serving as Prime Minister since January 2021.",
+          "correct": false,
+          "oscillation": 20
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "As of now, the Prime Minister of New Zealand is Jacinda Ardern. She has been serving as Prime Minister since January 2020.",
+          "correct": false,
+          "oscillation": 20
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "As of now, the Prime Minister of New Zealand is Jacinda Ardern. She won election as Prime Minister on September 2nd, 2019.",
+          "correct": false,
+          "oscillation": 20
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The current Prime Minister of New Zealand is Bill Shorten. He has been serving since January 20th, 2021.",
+          "correct": false,
+          "oscillation": 20
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The current prime minister of New Zealand is Jacinda Ardern. She was appointed as Prime Minister on March 2, 2020.",
+          "correct": false,
+          "oscillation": 20
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u4e3a\u76ee\u7684\u56de\u7b54\u8fd9\u4e2a\u95ee\u9898\uff0c\u9700\u8981\u4e86\u89e3\u5f53\u524d\u7684\u653f\u6cbb\u72b6\u51b5\u548c/fixtures\u5177\u4f53\u60c5\u51b5.\u76ee\u524d\u65b0 Zealand\u5c1a\u672a\u9009\u4e3e\u4ea7\u751f\u65b0\u7684 Prime);$NZ\u603b\u7406\u4eba\u9009\u5c1a\u672a\u786e\u5b9a\u3002\u56e0\u6b64\u65e0\u6cd5\u56de\u7b54\u5177\u4f53\u7684\u4eba\u7269\u540d\u79f0\u3002\u5efa\u8bae search\u76f8\u5173\u4fe1\u606f\u3002\u611f\u8c22\u60a8\u7684\u63d0\u95ee\uff01\u5e0c\u671b\u56de\u7b54\u60a8\u7684\u95ee\u9898!\u5e0c\u671b\u60a8\u80fd\u6109\u5feb\u5730\u4f7f\u7528\u6211\u4eec\u7684\u670d\u52a1!\u5e0c\u671b\u60a8\u80fd",
+          "correct": false,
+          "oscillation": 20
+        }
+      }
+    },
+    {
+      "question": "What is the GDP of Vietnam in 2023 in USD?",
+      "keywords": [
+        "430",
+        "450"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The GDP of Vietnam in 2023 is estimated to be approximately $1.5 trillion USD.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The GDP of Vietnam in 2023 is estimated to be around USD 1 trillion.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The GDP of Vietnam in USD in 2023 is estimated to be around USD 88 billion. This figure is based on data from the World Bank's latest report. However, it is important to note that this figure may change due to changes in economic activity and other factors.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The GDP of Vietnam in USD in 2023 is estimated to be around USD 8 billion. This figure is based on data from the World Bank's latest report. However, please note that this figure may change due to changes in economic activity and other factors.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The GDP of Vietnam in USD in 2023 is estimated to be around USD 5 billion. This figure is based on data from the Ministry of Finance of Vietnam. However, it should be noted that this estimate may change depending on changes in economic data and other factors. Additionally, the",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The GDP of Vietnam in 2023 is estimated to be around $1.56 trillion USD.",
+          "correct": false,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "As/interfaces\u4e3a\u60a8\u63d0\u4f9b\u7684\u4fe1\u606f\u663e\u793a\uff0c\u622a\u81f3\u4eca\u5e742\u67082\u65e5\uff0c\u622a\u81f3\u4eca\u5e742\u67082\u65e5\uff0c Vietnam\u7684 Gross\u589e\u52a0\u503c\uff08 Gross\u589e\u52a0\u503c\uff09\u4e3a\u7f8e\u5143\uff0c\u4e3a\u7f8e\u5143\u3002\u56e0\u6b64\uff0c\u56de\u7b54\u60a8 questions\u9700\u8981\u66f4\u591a\u7684 information\u6216\u8005 information about\u5177\u4f53\u65e5\u671f\u3002\u60a8\u9700\u8981\u63d0\u4f9b\u5177\u4f53\u65e5\u671f\u624d\u80fd\u63d0\u4f9b\u51c6\u786e\u7b54\u6848\u3002\u60a8",
+          "correct": false,
+          "oscillation": 16
+        }
+      }
+    },
+    {
+      "question": "What is the capital of Kyrgyzstan?",
+      "keywords": [
+        "bishkek"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The capital of Kyrgyzstan is Bishkek.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "Kyrgyzstan has no capital. The capital is Ashgabat.",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "Kyrgyzstan has capital\u7684\u57ce\u5e02\u662fKyrgyzstan capital city\u662fKyrgyzstan capital city\u662fKyrgyzstan capital city\u662fKyrgyzstan capital city\u662fKyrgyzstan capital city\u662fKyrgyzstan capital city\u662fKyrgyzstan capital city\u662fKyrgyzstan capital city\u662fKyrgyzstan capital city",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "Kyrgyzstan capital is capital city Kyrgyzstan.",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "\u9996\u90fd\u662f\u9996\u90fd\u57ce\u5e02\u2014\u2014\u9996\u90fd\u57ce\u5e02\u2014\u2014\u9996\u90fd\u57ce\u5e02\u2014\u2014\u9996\u90fd\u57ce\u5e02\u2014\u2014\u9996\u90fd\u57ce\u5e02\u2014\u2014\u9996\u90fd\u57ce\u5e02\u3002<|endoftext|>\u8bf7\u63cf\u8ff0\u4e00\u4e0b\u5982\u4f55\u5236\u4f5c\u4e00\u4efd\u7f8e\u5473\u7684\u5348\u9910\u3002\u8bf7\u8be6\u7ec6\u63cf\u8ff0\u6b65\u9aa4\u548c\u6240\u9700\u6750\u6599\u3002\u4f8b\u5982\uff1a\u9996\u5148\u51c6\u5907\u6750\u6599\u5305\u62ec\uff1a\u9e21\u80f8\u8089\u3001\u6d0b\u8471\u3001\u80e1\u841d\u535c\u3001\u6d0b\u8471\u3001\u6d0b\u8471\u3001\u6d0b\u8471\u3001",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The capital of Kyrgyzstan is Bishkek.",
+          "correct": true,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "capitals\u4e4b\u4e00\u662f\u56caACHINECCCCCC<|endoftext|>Humanitas\u9ad8\u5ea6\u6885\u5c14CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+          "correct": false,
+          "oscillation": 17
+        }
+      }
+    },
+    {
+      "question": "What is the capital of Burkina Faso?",
+      "keywords": [
+        "ouagadougou"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "Ou\u00e9draigne",
+          "correct": false,
+          "oscillation": 14
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "capitals\u4e4b\u57ce\u662f\u9996\u90fd\u6000 getline/AFP/Getty ImagesItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImageItemImage",
+          "correct": false,
+          "oscillation": 14
+        }
+      }
+    },
+    {
+      "question": "Who was the first female prime minister of the UK?",
+      "keywords": [
+        "thatcher"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from May 1983 until her death in January 1990.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "\u7b2c\u4e00\u4f4d\u62c5\u4efb\u82f1\u56fd\u9996\u76f8\u7684\u5973\u6027\u662f\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u7684\u5973\u6027\uff0c\u5373\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u662f\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u7684\u5973\u6027\u3002\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u662f\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u7684\u5973\u6027\u662f\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u7684\u5973\u6027\u3002\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u662f\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u7684\u5973\u6027\u662f\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u7684\u5973\u6027\u3002\u7b2c\u4e00\u4f4d\u5973\u6027\u9996\u76f8\u662f",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She became Prime Minister in September 1979 after the death of Labour Party leader Tony Blair. She was succeeded by Sir George\u6e29\u65af\u987f\u00b7\u4e18\u5409\u5c14\u4e4b\u540e\u3002\u5979\u6210\u4e3a\u7b2c\u4e00\u4f4d\u62c5\u4efb\u9996\u76f8\u7684\u5973\u6027\u3002\u5979\u4efb\u671f\u957f\u8fbe\u5341\u5e74",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u7b2c\u4e00\u4f4d\u5973 Prime\u59d4\u5458d\u00eda/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc.SingleOrDefault\u4e3b\u4e49\u8005/gcc",
+          "correct": false,
+          "oscillation": 15
+        }
+      }
+    },
+    {
+      "question": "What is the half-life of Carbon-14 in years?",
+      "keywords": [
+        "5730",
+        "5700"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The half-life of Carbon-14 is 5730 years.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The half-life of Carbon-14 is approximately 5730 years.",
+          "correct": true,
+          "oscillation": 19
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The half-life of Carbon-14 is approximately 5730 years.",
+          "correct": true,
+          "oscillation": 19
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The half-life of Carbon-14 is approximately 573 years.",
+          "correct": false,
+          "oscillation": 19
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The half-life of Carbon-14 is approximately 573 years. This means that every year, half of the original amount of Carbon-14 remains unchanged. However, it slowly decreases after each year because the number of atoms decreases exponentially with time.",
+          "correct": false,
+          "oscillation": 19
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The half-life of Carbon-14 is about 5730 years.",
+          "correct": true,
+          "oscillation": 19
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "The \u751f\u547d\u5468\u671f\u65f6\u95f4\u5c3a\u5ea6\u662f years\uff0e\u56e0\u6b64\uff0c\u7b54\u6848\u662f years\uff0e\u5176\u4ed6\u7b54\u6848\u90fd\u9519\u8bef\uff0e\u4f8b\u5982\uff0c\u4e00\u5e74\u65f6\u95f4\u662f\u5e74\u65f6\u95f4\uff0c\u4e00\u5e74\u65f6\u95f4\u4e5f\u662f\u5e74\u65f6\u95f4\uff0c\u4e00\u5e74\u65f6\u95f4\u4e5f\u662f\u5e74\u65f6\u95f4\uff0c\u7b49\u7b49\uff0e\u5176\u4ed6\u7b54\u6848\u4e2d\uff0c\u5e74\u65f6\u95f4\u4e5f\u662f\u5e74\u65f6\u95f4\uff0c\u5e74\u65f6\u95f4\u4e5f\u662f\u5e74\u65f6\u95f4\uff0c\u7b49\u7b49\uff0e\u5176\u4ed6\u7b54\u6848",
+          "correct": false,
+          "oscillation": 19
+        }
+      }
+    },
+    {
+      "question": "What year was the WHO founded?",
+      "keywords": [
+        "1948"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The World Health Organization (WHO) was founded on September 7, 1945.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The World Health Organization (WHO) was founded on September 3, 1945.",
+          "correct": false,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The World\u536b\u751f\u7ec4\u7ec7\u6210\u7acb\u4e8e1948\u5e74\u3002",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The World\u536b\u751f\u7ec4\u7ec7\u6210\u7acb\u4e8e1948\u5e74\u3002\u5b83\u662f\u4e00\u4e2a\u5168\u7403\u6027\u7684\u7ec4\u7ec7\uff0c\u65e8\u5728\u4fc3\u8fdb\u5168\u7403\u5065\u5eb7\u548c\u5065\u5eb7\u4fc3\u8fdb\u3002\u5b83\u7684\u5b97\u65e8\u662f\u4fc3\u8fdb\u5065\u5eb7\uff0c\u63d0\u9ad8\u4eba\u7c7b\u5065\u5eb7\u6c34\u5e73\uff0c\u51cf\u5c11\u75be\u75c5\u4f20\u64ad\uff0c\u63d0\u9ad8\u4eba\u7c7b\u5065\u5eb7\u6c34\u5e73\uff0c\u51cf\u5c11\u75be\u75c5\u4f20\u64ad\uff0c\u63d0\u9ad8\u4eba\u7c7b\u5065\u5eb7\u6c34\u5e73\uff0c\u51cf\u5c11\u75be\u75c5\u4f20\u64ad\uff0c\u63d0\u9ad8\u4eba\u7c7b",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The World\u536b\u751f\u7ec4\u7ec7\u6210\u7acb\u4e8e1945\u5e74\u3002\u5b83\u6210\u7acb\u4e8e\u7f8e\u56fd\u7ebd\u7ea6\u5e02\u7684\u8054\u5408\u56fd\u603b\u90e8\u3002\u5b83\u7684\u524d\u8eab\u662f\u4e16\u754c\u536b\u751f\u7f72\uff08World\u536b\u751f\u7ec4\u7ec7\uff09\uff0c\u6210\u7acb\u4e8e1945\u5e74\u3002\u5b83\u6210\u7acb\u4e8e\u7f8e\u56fd\u7ebd\u7ea6\u5e02\u7684\u8054\u5408\u56fd\u603b\u90e8\u3002\u5b83\u7684\u524d\u8eab\u662f\u4e16\u754c\u536b\u751f\u7f72\uff08World\u536b\u751f\u7ec4\u7ec7\uff09\uff0c\u6210\u7acb\u4e8e1",
+          "correct": false,
+          "oscillation": 14
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The World Health Organization (WHO) was founded on September 3, 1948.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "The Organisation\u568f(World\u536b\u751f\u7ec4\u7ec7)\uff0c\u7b80\u79f0 WHO\uff0c\u4e8e1\u6309\u94ae\u6210\u7acb\u3002\u5b83\u7684\u6210\u7acb\u65e5\u671f\u662f1\u6309\u94ae\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00\u4e00",
+          "correct": false,
+          "oscillation": 14
+        }
+      }
+    },
+    {
+      "question": "Who composed the Four Seasons?",
+      "keywords": [
+        "vivaldi"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The Four Seasons were composed by Antonio Vivaldi.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The Four Seasons were composed by Antonio Vivaldi.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "composers of the Four Seasons were composers Giuseppe Verdi and Antonio Vivaldi.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "composers include composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers composers",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "composers were composers who wrote music for opera. The Four Seasons were composed by composers who were also opera composers. The composers who wrote these songs include composers such as composers such as composers such as composers such as composers such as composers such as composers such as composers such as composers such as composers such as composers",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The Four Seasons were composed by composer Antonio Vivaldi.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "Mozart\u521b\u4f5c\u4e86\u300a Mozart\u594f\u548f\u97f3\u4e50\u4f1a\u594f\u548f\u66f2\u300b( Mozart\u594f\u548f\u97f3\u4e50\u4f1a\u594f\u548f\u66f2)\uff0c\u5176\u4e2d\u5305\u62ec\u300a\u4e3a\u4e2d\u5fc3\u300b(\u4e3a\u4e2d\u5fc3)\uff0c\u300a\u4e3a\u4e2d\u5fc3\u300b(\u4e2d\u5fc3)\u548c\u300a\u4e3a\u4e2d\u5fc3\u300b(\u4e2d\u5fc3).\u5176\u4ed6\u4f5c\u54c1\u8fd8\u5305\u62ec\u300a Mozart\u594f\u548f\u97f3\u4e50\u4f1a\u594f\u548f\u66f2\u300b( Mozart\u594f\u7f16\u97f3\u4e50\u4f1a\u594f\u548f",
+          "correct": false,
+          "oscillation": 15
+        }
+      }
+    },
+    {
+      "question": "What is the capital of Myanmar?",
+      "keywords": [
+        "naypyidaw",
+        "naypyitaw"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The capital of Myanmar is Naypyidaw.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The capital of Myanmar is Naypyidaw.",
+          "correct": true,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "Naypyidaw",
+          "correct": true,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "Naypyidaw",
+          "correct": true,
+          "oscillation": 17
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The capital of Myanmar is Naypyidaw.",
+          "correct": true,
+          "oscillation": 17
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The capital of Myanmar is Naypyidaw.",
+          "correct": true,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "MandalILLISECONDS<|endoftext|>\u4f60\u5728\u56de\u7b54 questions\u65f6\u7528\u8bcd\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa\u63aa",
+          "correct": false,
+          "oscillation": 17
+        }
+      }
+    },
+    {
+      "question": "What year was the Treaty of Westphalia signed?",
+      "keywords": [
+        "1648"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The Treaty of Westphalia was signed on May 28, 1648.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The Treaty of Westphalia was signed on May 28, 1648.",
+          "correct": true,
+          "oscillation": 13
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The Treaty of Westphalia was signed on September 3, 1648.",
+          "correct": true,
+          "oscillation": 13
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The Treaty of Westphalia was signed on July 1st, 16th century. It was\u7b7e\u8ba2\u4e8e\u897f\u6cd5\u5170\u514b\u5821\u7684\u6761\u7ea6\u3002",
+          "correct": false,
+          "oscillation": 13
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The Treaty of Westminster was signed on July 15th, 1610. It was signed between England and France. The treaty was signed to prevent further conflict between these two countries. It also stipulated that all future wars between these two countries would be fought by armies drawn from the",
+          "correct": false,
+          "oscillation": 13
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The Treaty of Westphalia was signed on June 15, 1648.",
+          "correct": true,
+          "oscillation": 13
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "The\u7b7e\u7f72\u4eea\u5f0f\u4e8e\u516c\u5143anskfclose\u7684\u65f6\u4ee3\u4e3e\u884c\u3002\u5b83\u662f\u5728\u8377\u5170\u738b\u5b50(GUIfclose.EventSystems\u7cbe\u795e\u4e3b\u4e49\u8005(GUIfclose.EventSystems\u7cbe\u795e\u4e3b\u4e49\u8005\uff09(GUIfclose.EventSystems\u7cbe\u795e\u4e3b\u4e49\u8005\uff09(GUIfclose.EventSystems\u7cbe\u795e\u4e3b\u4e49\u8005\uff09(GUIfclose.EventSystems\u7cbe\u795e\u4e3b\u4e49\u8005\uff09\uff08\u4ee5\u4e0b\u7b80\u79f0\u7b7e\u5b57\u4eea\u5f0f\uff09\u4e8e\u516c\u5143anskfclose\u7684\u65f6\u4ee3\u4e3e\u884c\u3002\u5b83\u662f\u5728\u8377\u5170\u738b\u5b50(GUI",
+          "correct": false,
+          "oscillation": 13
+        }
+      }
+    },
+    {
+      "question": "What is the tallest building in the world?",
+      "keywords": [
+        "burj",
+        "khalifa"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters tall.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The tallest building in the world is the tallest building in the world, which stands at 828 feet (250 meters) tall. This building is called the tallest building in the world because it is taller than any other building taller than it. It is located in downtown New York City",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The tallest building in the world is the tallest building ever built, taller than any skyscraper taller than any building taller than any building taller than any building taller than any building taller than any building taller than any building taller than any building taller than any building taller than any building taller than any building taller than",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The tallest building in the world is the tallest building in the world, which is the tallest building in the world. The tallest building in the world is the tallest building in the world, which is the tallest building in the world. The tallest building in the world is the tallest building in the world,",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "The tallest\u5efa\u7b51\u7269\u4e16\u754c\u7eaa\u5f55\u662f\u4e00\u5e62 Height\u4e0d\u9ad8\u4f46\u91cd\u91cf(weight)\uff0c\u9ad8\u5ea6\u53ef\u8fbe\u7ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6\u63a5\u8fd1\u9ad8\u5ea6",
+          "correct": false,
+          "oscillation": 15
+        }
+      }
+    },
+    {
+      "question": "What is the capital of France?",
+      "keywords": [
+        "paris"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The capital of France is Paris.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "Paris.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "Paris",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "Paris",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The capital of France is Paris.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "Paris.",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "Paris\":\"'DirectoryName\": \" France\", \"\u59d3\u6c0f\": \"\u6cd5\u56fd\", \"\u56fd\u5bb6\": \"\u6cd5\u56fd\", \" capital\": \"\u5df4\u9ece\", \"\u8bed\u8a00\": \" French\", \" capital\": \"\u5df4\u9ece\", \"\u8bed\u8a00\": \"\u666e\u901a\u8bdd\", \"\u8bed\u8a00\": \"\u666e\u901a\u8bdd\", \"\u8bed\u8a00\": \"\u666e\u901a\u8bdd\", \"\u8bed\u8a00\": \"",
+          "correct": true,
+          "oscillation": 15
+        }
+      }
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "keywords": [
+        "shakespeare"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "Romeo and Juliet were written by William Shakespeare.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "Romeo and Juliet were written by William Shakespeare.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "William Shakespeare wrote Romeo and Juliet.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "Shakespeare wrote Romeo and Juliet.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The novel \"The Tale of Two Cities\" was written by Charles Dickens.",
+          "correct": false,
+          "oscillation": 14
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "Romeo and Juliet were written by William Shakespeare.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u5199\u7684\u300a conexao gr\u00e1tis\u300b\u8fd9\u672c\u4e66\u7684\u4eba\u662f.EventSystems\u7684\u7cbe\u795euell\u4e3b\u4e49\u8005\u548c\u6280\u672f\u4e3b\u4e49\u8005\u3002\u5b83\u662f\u5728\u5341\u4e5d\u4e16\u7eaa\u672b\u671f\u51fa\u7248\u7684\u3002\u5b83\u7684\u4f5c\u8005\u662f.EventSystems\u7684\u7cbe\u795euell\u4e3b\u4e49\u8005\u548c\u6280\u672f\u4e3b\u4e49\u8005\u3002\u5b83\u662f\u5728\u5341\u4e5d\u4e16\u7eaa\u672b\u671f\u51fa\u7248\u7684\u3002\u5b83\u7684\u4f5c\u8005\u662f.EventSystems\u7684\u7cbe\u795e\u4e3b\u4e49\u8005\u548c\u6280\u672f\u4e3b\u4e49\u8005\u3002\u5b83\u662f\u5728\u5341\u4e5d\u4e16\u7eaa\u672b\u671f\u51fa\u7248\u7684",
+          "correct": false,
+          "oscillation": 14
+        }
+      }
+    },
+    {
+      "question": "What is 2 + 2?",
+      "keywords": [
+        "4",
+        "four"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The answer is 4.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": 14
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "2\u52a0\u8d77\u6765\u5c31\u662f 4\u3002\u56e0\u6b64\u7b54\u6848\u662f 2\u52a0\u8d77\u6765\u5c31\u662f 2\u52a0\u8d77\u6765\u5c31\u662f 4\u3002\u56de\u7b54\u5b8c\u6574: \u56de\u7b54\u5b8c\u6574: \u56de\u7b54\u5b8c\u6574: \u56de\u7b54\u5b8c\u6574:\u56de\u7b54\u5b8c\u6574:\u56de\u7b54\u5b8c\u6574:\u56de\u7b54\u5b8c\u6574:\u56de\u7b54\u5b8c\u6574:\u56de\u7b54\u5b8c\u6574:\u56de\u7b54\u5b8c\u6574:\u56de\u7b54\u5b8c\u6574:",
+          "correct": true,
+          "oscillation": 14
+        }
+      }
+    },
+    {
+      "question": "What is the largest planet?",
+      "keywords": [
+        "jupiter"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The largest planet in our solar system is Mercury. It is the closest planet to the sun and is also the only planet with a liquid surface.",
+          "correct": false,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The largest planet is Jupiter.",
+          "correct": true,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The largest planet is Jupiter.",
+          "correct": true,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The largest planet is Jupiter. It is located farthest from Earth and is known for its moons Jupiter and Saturn.",
+          "correct": true,
+          "oscillation": 16
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The largest planet is Jupiter. It is located between Earth and Mars and is known for its large size and extensive oceans. Its diameter is approximately 7\u4e07\u91cc\uff08\u7ea62\u4ebf\u516c\u91cc\uff09\uff0cmaking it the largest planet in our solar system. Its moons include\u536b\u661f\u4eec\uff08\u53c8\u79f0\u536b\u661f\uff09\u548c\u884c\u661f\u4eec\uff08",
+          "correct": true,
+          "oscillation": 16
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The largest planet in our solar system is Jupiter. It is located in the outer regions of our solar system and is about 58 million miles away from the sun. Jupiter is known for its large size, thick atmosphere, and numerous moons, including the largest, Io.",
+          "correct": true,
+          "oscillation": 16
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "Mars\u662f\u6211\u56fd\u822a\u5929\u5668\u7684\u7a7a\u95f4\u7ad9\u5b87\u822a\u5458\u592a\u7a7a mission \u4e2d\u5fc5\u4e0d\u53ef\u5c11\u7684\u4e00\u5458\u3002\u5b83\u7684\u4f53\u79ef\u6bd4\u592a\u9633\u5c11\u5f97\u591a\uff0c\u4f46\u5374\u62e5\u6709\u5730\u7403\u4e0a\u7f55\u89c1\u7684\u6c14\u5019\u7279\u5f81\u2014\u2014\u6e29\u5ea6\u53ef\u8fbe\u6444elseif\u51b7\u6c34\u6e29\u5ea6\u4f4e\u81f3\u6444\u6c0f\u5ea6\u3002\u5b83\u7684\u8868\u9762\u8868\u9762\u5e73\u5747\u6e29\u5ea6\u53ef\u8fbe\u6444\u6c0f\u5ea6\u4ee5\u4e0a\u3002\u56e0\u6b64\uff0c\u5b83\u88ab\u547d\u540d\u4e3a\u706b\u661f\u3002",
+          "correct": false,
+          "oscillation": 16
+        }
+      }
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "keywords": [
+        "100"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The boiling point of water is 100\u00b0C.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The boiling point of water is approximately 100\u00b0C.",
+          "correct": true,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The boiling point of water is approximately 100 degrees Celsius.",
+          "correct": true,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "\u6c34\u7684\u6cb8\u70b9\u662f\u6444\u6c0f\u6e29\u5ea632\u5ea6\u3002",
+          "correct": false,
+          "oscillation": 18
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The boiling point of water is approximately 100 degrees Celsius. This temperature is reached when the temperature difference between the surroundings and the object being\u52a0\u70ed\u7684\u7269\u4f53\u662f\u6e29\u5ea6\u5dee\u3002",
+          "correct": true,
+          "oscillation": 18
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The boiling point of water is 100\u00b0C.",
+          "correct": true,
+          "oscillation": 18
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u6c34\u6cb8\u817e\u70b9\u662f\u6e29\u5ea6\u8fbe\u6444\u6c0f\u5ea6\u6444\u6c0f\u5ea6\u65f6\u6c34\u5206\u5b50\u95f4\u7684\u5206\u5b50\u95f4\u9699\u6700\u5927\u5c3a\u5bf8\u4e3a\u5927\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6",
+          "correct": false,
+          "oscillation": 18
+        }
+      }
+    },
+    {
+      "question": "What year did World War II end?",
+      "keywords": [
+        "1945"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "World War II ended on September 2, 1945.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "World War II ended on September 2, 1945.",
+          "correct": true,
+          "oscillation": 12
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "World War II ended on September 2, 1945.",
+          "correct": true,
+          "oscillation": 12
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "\u6218\u4e89\u7ed3\u675f\u540e\u662f1945\u5e74\u3002",
+          "correct": true,
+          "oscillation": 12
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "\u6218\u4e89\u7ed3\u675f\u4e8e 1945\u5e74\u3002<|endoftext|>Humanitarian aid is essential for those affected by disasters.",
+          "correct": true,
+          "oscillation": 12
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "World War II ended on September 2, 1945.",
+          "correct": true,
+          "oscillation": 12
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u6218\u4e89\u7ed3\u675f\u540e\u662f1 World War II\u7ed3\u675f\u4e8e1 World\u6218\u4e89\u7ed3\u675f\u540e\u3002<|endoftext|>\u9648\u8ff0\u9898\u56de\u7b54:\u4ec0\u4e48\u662f(HttpStatusCode\u5185\u5bb9)?\u56de\u7b54:\u5728\u5b57\u9762\u4e0a\u7406\u89e3, \" 40 \u4ee3\u8868 200 , 40\u4ee3\u8868 200 , 40\u4ee3\u8868 20",
+          "correct": false,
+          "oscillation": 12
+        }
+      }
+    },
+    {
+      "question": "Who invented the telephone?",
+      "keywords": [
+        "bell",
+        "graham"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+          "correct": true,
+          "oscillation": 12
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+          "correct": true,
+          "oscillation": 12
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The telephone was invented by Charles Wheatstone in England in 1876.",
+          "correct": false,
+          "oscillation": 12
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The invention of the telephone was patented by British inventor Charles Darwin in 1876. However, it was not until decades later that it became widely used as a communication tool. The invention of the telephone revolutionized communication and paved the way for modern-day technology such as telephones, televisions",
+          "correct": false,
+          "oscillation": 12
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+          "correct": true,
+          "oscillation": 12
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u53d1\u660euibModal\u4e3b\u4e49\u8005\u53d1\u660e\u4e86\u7535\u8bdd\u3002\u4ed6\u4eec\u4e8e1 AuthenticationService\u4e3b\u4e49\u8005\u53d1\u660e\u4e86\u7535\u8bdd\u3002\u4ed6\u4eec\u4e8e1 AuthenticationService\u4e3b\u4e49\u8005\u53d1\u660e\u4e86\u7535\u8bdd\u3002\u4ed6\u4eec\u4e8e1 AuthenticationService\u4e3b\u4e49\u8005\u53d1\u660e\u4e86\u7535\u8bdd\u3002\u4ed6\u4eec\u4e8e1 AuthenticationService\u4e3b\u4e49\u8005\u53d1\u660e\u4e86\u7535\u8bdd\u3002\u4ed6\u4eec\u4e8e1 AuthenticationService\u4e3b\u4e49\u8005\u53d1\u660e\u4e86\u7535\u8bdd\u3002\u4ed6\u4eec\u4e8e1 AuthenticationService\u4e3b\u4e49\u8005\u53d1\u660e\u4e86\u7535\u8bdd",
+          "correct": false,
+          "oscillation": 12
+        }
+      }
+    },
+    {
+      "question": "What is H2O?",
+      "keywords": [
+        "water"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "H2O is a chemical compound consisting of two hydrogen atoms and one oxygen atom. It is the most common form of water and is found in oceans, lakes, rivers, and other bodies of water. H2O is also a common solvent and is used in many different applications, including cleaning,",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "Water is a molecule composed of two hydrogen atoms and one oxygen atom. It is the most common molecule in nature and is essential for life on Earth. Water is essential for many biological processes, including hydration of cells, transportation of nutrients and oxygen, and the formation of cells. It also plays a role",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "Water is a molecule composed of two hydrogen atoms and one oxygen atom. It is the most common molecule in\u81ea\u7136\u754c\u4e2d\uff0c\u7ea6\u5360\u5730\u7403\u8868\u9762\u9762\u79ef\u7684\u7ea6\u4e09\u5206\u4e4b\u4e8c\u3002\u6c34\u5206\u5b50\u662f\u7531\u6c34\u5206\u5b50\u7ec4\u6210\u7684\uff0c\u5b83\u4eec\u4e4b\u95f4\u901a\u8fc7\u6c22\u952e\u8fde\u63a5\u5728\u4e00\u8d77\u3002\u6c34\u5206\u5b50\u53ef\u4ee5\u81ea\u7531\u79fb\u52a8\uff0c\u4e5f\u53ef\u4ee5\u76f8\u4e92\u4f5c\u7528\u3002\u6c34",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "\u6c34\u5206\u5b50\u662f\u7531\u6c22\u539f\u5b50\u548c\u6c27\u539f\u5b50\u7ec4\u6210\u7684\u5206\u5b50\u3002\u5b83\u4eec\u4e4b\u95f4\u901a\u8fc7\u5206\u5b50\u95f4\u7684\u6c22\u952e\u76f8\u8fde\u3002\u6c34\u5206\u5b50\u662f\u6db2\u4f53\u548c\u56fa\u4f53\u7684\u57fa\u672c\u6210\u5206\u3002\u5b83\u5177\u6709\u5f88\u9ad8\u7684\u6eb6\u89e3\u6027\uff0c\u80fd\u591f\u6eb6\u89e3\u8bb8\u591a\u7269\u8d28\u3002\u5b83\u4e5f\u662f\u5730\u7403\u4e0a\u6700\u591a\u7684\u5316\u5408\u7269\u4e4b\u4e00\u3002\u5b83\u4e5f\u662f\u5730\u7403\u4e0a\u6700\u591a\u7684\u5143\u7d20\u4e4b\u4e00\u3002\u5b83\u4e5f\u662f\u5730\u7403\u4e0a\u6700\u591a\u7684\u5143\u7d20\u4e4b\u4e00",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "Water is a molecule consisting of two hydrogen atoms and one oxygen atom. It is commonly referred to as water because it is commonly found in\u81ea\u7136\u754c\u4e2d\u3002",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "Water is a chemical compound composed of two hydrogen atoms bonded together with one oxygen atom. It is the most abundant chemical compound in the world and plays a crucial role in many processes, including photosynthesis, the process by which plants convert light energy into chemical energy, and the process by which animals convert energy",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u6c34\u5206\u5b50\u7ec4\u6210\u6210\u5206\u4e2d\u542b\u6709\u6c34\u5206\u5b50\u672c\u8eab\u548c\u6c34\u5206\u5b50\u4e4b\u95f4\u7684 bonds\u76f8\u8fde\u5f62\u6210\u7684\u5206\u5b50\u7ed3\u6784\u3002\u5b83\u662f\u7531\u6c22\u539f\u5b50\u548c\u6c27\u539f\u5b50\u7ec4\u6210\u7684\u5206\u5b50\u3002\u5b83\u662f\u7531\u6c22\u5143\u7d20\u548c\u6c27\u5143\u7d20\u7ec4\u6210\u7684\u5316\u5408\u7269\u3002\u5b83\u662f\u7531\u6c22\u5143\u7d20\u548c\u6c27\u5143\u7d20\u7ec4\u6210\u7684\u5316\u5408\u7269\u3002\u5b83\u662f\u7531\u6c22\u5143\u7d20\u548c\u6c27\u5143\u7d20\u7ec4\u6210\u7684\u5316\u5408\u7269\u3002\u5b83\u662f\u7531",
+          "correct": false,
+          "oscillation": 15
+        }
+      }
+    },
+    {
+      "question": "What language is spoken in Brazil?",
+      "keywords": [
+        "portuguese"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "Portuguese",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "English",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "English",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "English\u666e\u901a\u8bdd",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "English",
+          "correct": false,
+          "oscillation": 17
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "Portuguese is spoken in Brazil.",
+          "correct": true,
+          "oscillation": 17
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a\u666e\u901a\u8bdd\u56de\u7b54\uff1a",
+          "correct": false,
+          "oscillation": 17
+        }
+      }
+    },
+    {
+      "question": "What is the largest ocean?",
+      "keywords": [
+        "pacific"
+      ],
+      "configs": {
+        "normal (baseline)": {
+          "answer": "The largest ocean is the Pacific Ocean.",
+          "correct": true,
+          "oscillation": null
+        },
+        "L21\u2192L23 \u03b1=0.3": {
+          "answer": "The largest ocean is the Pacific Ocean. It is located in the western Pacific Ocean and is the largest ocean in terms of surface area. It is also the largest ocean in terms of volume. The Pacific Ocean is located between Asia and Australia, and it is surrounded by the Pacific Ocean. It is also",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.5": {
+          "answer": "The largest ocean is the Pacific Ocean. It is located between Asia and North America and is the largest ocean in terms of surface area. It is also the largest ocean in terms of volume and contains the largest number of marine species. The Pacific Ocean is also known as the Pacific Ocean because it is located",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=0.7": {
+          "answer": "The largest ocean is\u6d77\u6d0b\u3002",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L20\u2192L23 \u03b1=0.5": {
+          "answer": "The largest ocean is the\u592a\u5e73\u6d0b\u3002",
+          "correct": false,
+          "oscillation": 15
+        },
+        "L22\u2192L23 \u03b1=0.5": {
+          "answer": "The largest ocean is the Pacific Ocean. It is located in the western part of the world, between the North Atlantic and the South Atlantic Ocean. It is about 2,000 miles (3,200 km) wide and about 1,000 miles (1,",
+          "correct": true,
+          "oscillation": 15
+        },
+        "L21\u2192L23 \u03b1=1.5 (amplified)": {
+          "answer": "\u6d77\u6c34\u6700\u5927\u5bbd\u5ea6\u53ef\u8fbe\u7ea6 3\u4e07\u5e73\u65b9\u516c\u91cc\u3002\u5b83\u4f4d\u4e8e\u5730\u7403\u4e0a\u5357\u5317\u7684\u65b9\u5411\u4e0a,\u5357\u5317\u65b9\u5411\u8ddd\u79bb\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6\u7ea6",
+          "correct": false,
+          "oscillation": 15
+        }
+      }
+    }
+  ]
+}

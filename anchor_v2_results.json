@@ -1,0 +1,27 @@
+{
+  "StaticBlend": {
+    "fixes": 1,
+    "breaks": 0,
+    "net": 1
+  },
+  "EntropyGated": {
+    "fixes": 0,
+    "breaks": 1,
+    "net": -1
+  },
+  "Contrastive": {
+    "fixes": 1,
+    "breaks": 0,
+    "net": 1
+  },
+  "EntropySwitch": {
+    "fixes": 1,
+    "breaks": 0,
+    "net": 1
+  },
+  "FactualBoost": {
+    "fixes": 1,
+    "breaks": 1,
+    "net": 0
+  }
+}

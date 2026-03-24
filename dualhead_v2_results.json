@@ -1,0 +1,867 @@
+{
+  "18": {
+    "std_hard": 4,
+    "std_total": 8,
+    "base_hard": 0,
+    "fh_hard": 0,
+    "fh_total": 2,
+    "routed_hard": 0,
+    "routed_total": 4,
+    "fixes": 0,
+    "breaks": 4,
+    "details": [
+      {
+        "question": "Who was the 30th president of the United States?",
+        "osc": 13,
+        "std_correct": false,
+        "fh_tok": " Abraham",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the melting point of tungsten in Celsius?",
+        "osc": 17,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of uranium-235 in years?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest desert in the world by area?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What country has the most UNESCO World Heritage Sites?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " Australia",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the atomic weight of plutonium?",
+        "osc": 21,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the rarest blood type?",
+        "osc": 19,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who won the Nobel Prize in Chemistry in 2023?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " William",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the speed of sound in water in m/s?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who is the prime minister of New Zealand as of 2024?",
+        "osc": 20,
+        "std_correct": false,
+        "fh_tok": " Har",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Kyrgyzstan?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " T",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Burkina Faso?",
+        "osc": 16,
+        "std_correct": true,
+        "fh_tok": " Alg",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who was the first female prime minister of the UK?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Nic",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of Carbon-14 in years?",
+        "osc": 19,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What year was the WHO founded?",
+        "osc": 12,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest planet?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " Jupiter",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the capital of France?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Paris",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "Who wrote Romeo and Juliet?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " William",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is 2 + 2?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the boiling point of water?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      }
+    ]
+  },
+  "19": {
+    "std_hard": 4,
+    "std_total": 8,
+    "base_hard": 0,
+    "fh_hard": 1,
+    "fh_total": 3,
+    "routed_hard": 1,
+    "routed_total": 5,
+    "fixes": 1,
+    "breaks": 4,
+    "details": [
+      {
+        "question": "Who was the 30th president of the United States?",
+        "osc": 13,
+        "std_correct": false,
+        "fh_tok": " Abraham",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the melting point of tungsten in Celsius?",
+        "osc": 17,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of uranium-235 in years?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest desert in the world by area?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What country has the most UNESCO World Heritage Sites?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " China",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the atomic weight of plutonium?",
+        "osc": 21,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the rarest blood type?",
+        "osc": 19,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who won the Nobel Prize in Chemistry in 2023?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " Michel",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the speed of sound in water in m/s?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who is the prime minister of New Zealand as of 2024?",
+        "osc": 20,
+        "std_correct": false,
+        "fh_tok": " Har",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Kyrgyzstan?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " T",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Burkina Faso?",
+        "osc": 16,
+        "std_correct": true,
+        "fh_tok": " Dak",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who was the first female prime minister of the UK?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Har",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of Carbon-14 in years?",
+        "osc": 19,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What year was the WHO founded?",
+        "osc": 12,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest planet?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " Jupiter",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the capital of France?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Paris",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "Who wrote Romeo and Juliet?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " William",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is 2 + 2?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the boiling point of water?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      }
+    ]
+  },
+  "20": {
+    "std_hard": 4,
+    "std_total": 8,
+    "base_hard": 0,
+    "fh_hard": 1,
+    "fh_total": 2,
+    "routed_hard": 1,
+    "routed_total": 4,
+    "fixes": 1,
+    "breaks": 4,
+    "details": [
+      {
+        "question": "Who was the 30th president of the United States?",
+        "osc": 13,
+        "std_correct": false,
+        "fh_tok": " Abraham",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the melting point of tungsten in Celsius?",
+        "osc": 17,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of uranium-235 in years?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest desert in the world by area?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What country has the most UNESCO World Heritage Sites?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " China",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the atomic weight of plutonium?",
+        "osc": 21,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the rarest blood type?",
+        "osc": 19,
+        "std_correct": false,
+        "fh_tok": " Australia",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who won the Nobel Prize in Chemistry in 2023?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " Man",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the speed of sound in water in m/s?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who is the prime minister of New Zealand as of 2024?",
+        "osc": 20,
+        "std_correct": false,
+        "fh_tok": " Har",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Kyrgyzstan?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " T",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Burkina Faso?",
+        "osc": 16,
+        "std_correct": true,
+        "fh_tok": " Dak",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who was the first female prime minister of the UK?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Har",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of Carbon-14 in years?",
+        "osc": 19,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What year was the WHO founded?",
+        "osc": 12,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest planet?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of France?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Paris",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "Who wrote Romeo and Juliet?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " William",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is 2 + 2?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the boiling point of water?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      }
+    ]
+  },
+  "21": {
+    "std_hard": 4,
+    "std_total": 8,
+    "base_hard": 0,
+    "fh_hard": 1,
+    "fh_total": 3,
+    "routed_hard": 1,
+    "routed_total": 5,
+    "fixes": 1,
+    "breaks": 4,
+    "details": [
+      {
+        "question": "Who was the 30th president of the United States?",
+        "osc": 13,
+        "std_correct": false,
+        "fh_tok": " Abraham",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the melting point of tungsten in Celsius?",
+        "osc": 17,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of uranium-235 in years?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest desert in the world by area?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What country has the most UNESCO World Heritage Sites?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " China",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the atomic weight of plutonium?",
+        "osc": 21,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the rarest blood type?",
+        "osc": 19,
+        "std_correct": false,
+        "fh_tok": " Diamond",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who won the Nobel Prize in Chemistry in 2023?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " Alexander",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the speed of sound in water in m/s?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who is the prime minister of New Zealand as of 2024?",
+        "osc": 20,
+        "std_correct": false,
+        "fh_tok": " Jeff",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Kyrgyzstan?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " Br",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Burkina Faso?",
+        "osc": 16,
+        "std_correct": true,
+        "fh_tok": " Alg",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who was the first female prime minister of the UK?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Am",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of Carbon-14 in years?",
+        "osc": 19,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What year was the WHO founded?",
+        "osc": 12,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest planet?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " Jupiter",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the capital of France?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Paris",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "Who wrote Romeo and Juliet?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " Jane",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is 2 + 2?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the boiling point of water?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      }
+    ]
+  },
+  "22": {
+    "std_hard": 4,
+    "std_total": 8,
+    "base_hard": 0,
+    "fh_hard": 1,
+    "fh_total": 2,
+    "routed_hard": 1,
+    "routed_total": 4,
+    "fixes": 1,
+    "breaks": 4,
+    "details": [
+      {
+        "question": "Who was the 30th president of the United States?",
+        "osc": 13,
+        "std_correct": false,
+        "fh_tok": " Abraham",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the melting point of tungsten in Celsius?",
+        "osc": 17,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of uranium-235 in years?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest desert in the world by area?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What country has the most UNESCO World Heritage Sites?",
+        "osc": 15,
+        "std_correct": false,
+        "fh_tok": " China",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the atomic weight of plutonium?",
+        "osc": 21,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the rarest blood type?",
+        "osc": 19,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who won the Nobel Prize in Chemistry in 2023?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " Alexander",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the speed of sound in water in m/s?",
+        "osc": 18,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who is the prime minister of New Zealand as of 2024?",
+        "osc": 20,
+        "std_correct": false,
+        "fh_tok": " Steve",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Kyrgyzstan?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " T",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of Burkina Faso?",
+        "osc": 16,
+        "std_correct": true,
+        "fh_tok": " Dak",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "Who was the first female prime minister of the UK?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Am",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the half-life of Carbon-14 in years?",
+        "osc": 19,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What year was the WHO founded?",
+        "osc": 12,
+        "std_correct": false,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the largest planet?",
+        "osc": 16,
+        "std_correct": false,
+        "fh_tok": " The",
+        "fh_correct": false,
+        "routed_correct": false
+      },
+      {
+        "question": "What is the capital of France?",
+        "osc": 15,
+        "std_correct": true,
+        "fh_tok": " Paris",
+        "fh_correct": true,
+        "routed_correct": true
+      },
+      {
+        "question": "Who wrote Romeo and Juliet?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " Nic",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is 2 + 2?",
+        "osc": 14,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": true
+      },
+      {
+        "question": "What is the boiling point of water?",
+        "osc": 18,
+        "std_correct": true,
+        "fh_tok": " ",
+        "fh_correct": false,
+        "routed_correct": false
+      }
+    ]
+  }
+}

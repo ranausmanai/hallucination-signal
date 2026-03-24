@@ -1,0 +1,31 @@
+{
+  "baseline": 8,
+  "L22-23, lr=5e-5, 3ep": {
+    "correct": 15,
+    "total": 20,
+    "fixes": 8,
+    "breaks": 1,
+    "net": 7
+  },
+  "L22-23, lr=1e-4, 3ep": {
+    "correct": 14,
+    "total": 20,
+    "fixes": 8,
+    "breaks": 2,
+    "net": 6
+  },
+  "L21-23, lr=5e-5, 3ep": {
+    "correct": 13,
+    "total": 20,
+    "fixes": 7,
+    "breaks": 2,
+    "net": 5
+  },
+  "L23 only, lr=5e-5, 3ep": {
+    "correct": 15,
+    "total": 20,
+    "fixes": 8,
+    "breaks": 1,
+    "net": 7
+  }
+}

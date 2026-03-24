@@ -1,0 +1,993 @@
+{
+  "n_total": 30,
+  "n_hard": 20,
+  "n_easy": 10,
+  "summary": {
+    "normal": 18,
+    "L21-23 always": 17,
+    "selective(\u226515)": 17,
+    "selective(\u226512)": 17
+  },
+  "per_question": [
+    {
+      "question": "Who was the 30th president of the United States?",
+      "keywords": [
+        "coolidge",
+        "calvin"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The 30th president of the United States was William Howard Taft.",
+          "correct": false,
+          "oscillation": 13,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The current president of the United States is Joe Biden.",
+          "correct": false,
+          "oscillation": 13,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The current 30th president of the United States is Joe Biden.",
+          "correct": false,
+          "oscillation": 13,
+          "ensemble_fraction": 0.3125
+        },
+        "selective(\u226512)": {
+          "answer": "The current president of the United States is Joe Biden.",
+          "correct": false,
+          "oscillation": 13,
+          "ensemble_fraction": 0.6666666666666666
+        }
+      }
+    },
+    {
+      "question": "What is the melting point of tungsten in Celsius?",
+      "keywords": [
+        "3422",
+        "3400"
+      ],
+      "results": {
+        "normal": {
+          "answer": "Tungsten has a melting point of 1,000\u00b0C.",
+          "correct": false,
+          "oscillation": 17,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The melting point of tungsten in Celsius is approximately 1568 degrees Celsius.",
+          "correct": false,
+          "oscillation": 17,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The melting point of tungsten in Celsius is approximately 1560 degrees Celsius.",
+          "correct": false,
+          "oscillation": 17,
+          "ensemble_fraction": 0.42105263157894735
+        },
+        "selective(\u226512)": {
+          "answer": "The melting point of tungsten in Celsius is approximately 1568 degrees Celsius.",
+          "correct": false,
+          "oscillation": 17,
+          "ensemble_fraction": 0.631578947368421
+        }
+      }
+    },
+    {
+      "question": "What is the half-life of uranium-235 in years?",
+      "keywords": [
+        "703 million",
+        "703",
+        "700"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The half-life of uranium-235 is 5730 years.",
+          "correct": false,
+          "oscillation": 16,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The half-life of uranium-235 is about 573 years.",
+          "correct": false,
+          "oscillation": 16,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The half-life of uranium-235 is about 573 years.",
+          "correct": false,
+          "oscillation": 16,
+          "ensemble_fraction": 0.5
+        },
+        "selective(\u226512)": {
+          "answer": "The half-life of uranium-235 is about 573 years.",
+          "correct": false,
+          "oscillation": 16,
+          "ensemble_fraction": 0.7777777777777778
+        }
+      }
+    },
+    {
+      "question": "What is the largest desert in the world by area?",
+      "keywords": [
+        "antarctica",
+        "antarctic"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The largest desert in the world by area is Sahara Desert. It covers an area of about 2.5 million square kilometers.",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The largest desert in the world by area is Sahara Desert. It covers an area of approximately 2.5 million square kilometers.",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 0.2962962962962963
+        },
+        "selective(\u226512)": {
+          "answer": "The largest desert in the world by area is Sahara Desert. It covers an area of about 2.5 million square kilometers.",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 0.7037037037037037
+        }
+      }
+    },
+    {
+      "question": "What country has the most UNESCO World Heritage Sites?",
+      "keywords": [
+        "italy",
+        "china"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The country with the most UNESCO World Heritage Sites is France.",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The country with the most UNESCO World Heritage Sites is China.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The country with the most UNESCO World Heritage Sites is China.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.3076923076923077
+        },
+        "selective(\u226512)": {
+          "answer": "The country with the most UNESCO World Heritage Sites is China.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.6923076923076923
+        }
+      }
+    },
+    {
+      "question": "What is the atomic weight of plutonium?",
+      "keywords": [
+        "244",
+        "242",
+        "239"
+      ],
+      "results": {
+        "normal": {
+          "answer": "Plutonium has an atomic weight of 238.",
+          "correct": false,
+          "oscillation": 21,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The atomic weight of plutonium is approximately 238.09999999999996.",
+          "correct": false,
+          "oscillation": 21,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The atomic weight of plutonium is approximately 238.09999999999996.",
+          "correct": false,
+          "oscillation": 21,
+          "ensemble_fraction": 0.4482758620689655
+        },
+        "selective(\u226512)": {
+          "answer": "The atomic weight of plutonium is approximately 238.09999999999996.",
+          "correct": false,
+          "oscillation": 21,
+          "ensemble_fraction": 0.8620689655172413
+        }
+      }
+    },
+    {
+      "question": "What is the rarest blood type?",
+      "keywords": [
+        "ab-",
+        "ab negative"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The rarest blood type is O negative.",
+          "correct": false,
+          "oscillation": 19,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The rarest blood type is Type O. Type O blood is the least common blood type among humans and is characterized by having fewer red blood cells than other types. Type O blood is also the most rare blood type among humans, accounting for less than one percent of the population. Type O blood is",
+          "correct": false,
+          "oscillation": 19,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The rarest blood type is O blood.",
+          "correct": false,
+          "oscillation": 19,
+          "ensemble_fraction": 0.7
+        },
+        "selective(\u226512)": {
+          "answer": "The rarest blood type is O blood.",
+          "correct": false,
+          "oscillation": 19,
+          "ensemble_fraction": 0.7
+        }
+      }
+    },
+    {
+      "question": "Who won the Nobel Prize in Chemistry in 2023?",
+      "keywords": [
+        "bawendi",
+        "brus",
+        "ekimov"
+      ],
+      "results": {
+        "normal": {
+          "answer": "In 2023, the Nobel Prize in Chemistry was awarded to the German chemist Friedrich W\u00f6hler for his work on the synthesis of the first organic molecules.",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The Nobel Prize in Chemistry was awarded to Nobel laureate Nobel Prize-winning chemist Nobel laureate Nobel Prize-winning chemist Nobel laureate Nobel Prize-winning chemist Nobel laureate Nobel Prize-winning chemist Nobel laureate Nobel Prize-winning chemist Nobel laureate Nobel Prize-winning chemist Nobel laureate Nobel",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The Nobel Prize in Chemistry was awarded to Nobel laureate Nobel Prize in Chemistry laureate Nobel Prize laureate Peter Wohlleben in 2023.",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 0.5
+        },
+        "selective(\u226512)": {
+          "answer": "The Nobel Prize in Chemistry was awarded to Nobel laureate Nobel Prize in Chemistry laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laureate Nobel Prize laure",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 0.7166666666666667
+        }
+      }
+    },
+    {
+      "question": "What is the speed of sound in water in m/s?",
+      "keywords": [
+        "1480",
+        "1500",
+        "1498"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The speed of sound in water is approximately 1480 m/s.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The speed of sound in water is approximately 1500 meters per second.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The speed of sound in water is approximately 1500 meters per second.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 0.2777777777777778
+        },
+        "selective(\u226512)": {
+          "answer": "The speed of sound in water is approximately 1500 meters per second.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 0.8333333333333334
+        }
+      }
+    },
+    {
+      "question": "Who is the prime minister of New Zealand as of 2024?",
+      "keywords": [
+        "luxon",
+        "christopher"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+          "correct": false,
+          "oscillation": 20,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The current Prime Minister of New Zealand is Jacinda Ardern. She has been Prime Minister since January 2024.",
+          "correct": false,
+          "oscillation": 20,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+          "correct": false,
+          "oscillation": 20,
+          "ensemble_fraction": 0.35714285714285715
+        },
+        "selective(\u226512)": {
+          "answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+          "correct": false,
+          "oscillation": 20,
+          "ensemble_fraction": 0.6428571428571429
+        }
+      }
+    },
+    {
+      "question": "What is the GDP of Vietnam in 2023 in USD?",
+      "keywords": [
+        "430",
+        "450"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The GDP of Vietnam in 2023 is estimated to be approximately $1.5 trillion USD.",
+          "correct": false,
+          "oscillation": 17,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The GDP of Vietnam in 2023 is estimated to be around USD 16.5 trillion. This figure is based on data from the World Bank. However, it is important to note that this figure may change due to changes in economic activity and other factors.",
+          "correct": false,
+          "oscillation": 17,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The GDP of Vietnam in 2023 is estimated to be around USD 1.5 trillion.",
+          "correct": false,
+          "oscillation": 17,
+          "ensemble_fraction": 0.5652173913043478
+        },
+        "selective(\u226512)": {
+          "answer": "The GDP of Vietnam in 2023 is estimated to be around USD 16.5 trillion. This figure is based on data from the World Bank.",
+          "correct": false,
+          "oscillation": 17,
+          "ensemble_fraction": 0.8285714285714286
+        }
+      }
+    },
+    {
+      "question": "What is the capital of Kyrgyzstan?",
+      "keywords": [
+        "bishkek"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The capital of Kyrgyzstan is Bishkek.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "Kyrgyzstan has capital\u7684\u57ce\u5e02\u662f\u9996\u90fd\u7684\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02\u662f\u9996\u90fd\u57ce\u5e02",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "Kyrgyzstan has no capital city.",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 0.5555555555555556
+        },
+        "selective(\u226512)": {
+          "answer": "Kyrgyzstan has no capital city. However, its capital is capital city of Kyrgyzstan.",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 0.7142857142857143
+        }
+      }
+    },
+    {
+      "question": "What is the capital of Burkina Faso?",
+      "keywords": [
+        "ouagadougou"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": 16,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": 16,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": 16,
+          "ensemble_fraction": 0.6666666666666666
+        },
+        "selective(\u226512)": {
+          "answer": "The capital of Burkina Faso is Ouagadougou.",
+          "correct": true,
+          "oscillation": 16,
+          "ensemble_fraction": 0.6666666666666666
+        }
+      }
+    },
+    {
+      "question": "Who was the first female prime minister of the UK?",
+      "keywords": [
+        "thatcher"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from May 1979 to May 1981.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from May 1979 to May 1990.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.40540540540540543
+        },
+        "selective(\u226512)": {
+          "answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from May 1979 to May 1981.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.918918918918919
+        }
+      }
+    },
+    {
+      "question": "What is the half-life of Carbon-14 in years?",
+      "keywords": [
+        "5730",
+        "5700"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The half-life of Carbon-14 is 5730 years.",
+          "correct": true,
+          "oscillation": 19,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The half-life of Carbon-14 is about 5730 years.",
+          "correct": true,
+          "oscillation": 19,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The half-life of Carbon-14 is about 5730 years.",
+          "correct": true,
+          "oscillation": 19,
+          "ensemble_fraction": 0.6111111111111112
+        },
+        "selective(\u226512)": {
+          "answer": "The half-life of Carbon-14 is about 5730 years.",
+          "correct": true,
+          "oscillation": 19,
+          "ensemble_fraction": 0.8888888888888888
+        }
+      }
+    },
+    {
+      "question": "What year was the WHO founded?",
+      "keywords": [
+        "1948"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The World Health Organization (WHO) was founded on September 7, 1945.",
+          "correct": false,
+          "oscillation": 12,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The World\u536b\u751f\u7ec4\u7ec7\u6210\u7acb\u4e8e1948\u5e74\u3002",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The World Health Organization (WHO) was founded on September 3, 1948.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 0.3333333333333333
+        },
+        "selective(\u226512)": {
+          "answer": "The World Health Organization (WHO) was founded on September 3, 1948.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 0.6190476190476191
+        }
+      }
+    },
+    {
+      "question": "Who composed the Four Seasons?",
+      "keywords": [
+        "vivaldi"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The Four Seasons were composed by Antonio Vivaldi.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "composer of the Four Seasons is composer Antonio Vivaldi.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "composer of the four seasons is Antonio Vivaldi.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.25
+        },
+        "selective(\u226512)": {
+          "answer": "composer of the Four Seasons is composer Antonio Vivaldi.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.6153846153846154
+        }
+      }
+    },
+    {
+      "question": "What is the capital of Myanmar?",
+      "keywords": [
+        "naypyidaw",
+        "naypyitaw"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The capital of Myanmar is Naypyidaw.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "Naypyidaw",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "Naypyidaw",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 0.8
+        },
+        "selective(\u226512)": {
+          "answer": "Naypyidaw",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        }
+      }
+    },
+    {
+      "question": "What year was the Treaty of Westphalia signed?",
+      "keywords": [
+        "1648"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The Treaty of Westphalia was signed on May 28, 1648.",
+          "correct": true,
+          "oscillation": 13,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The Treaty of Westphalia was signed on September 3, 1648.",
+          "correct": true,
+          "oscillation": 13,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The Treaty of Westphalia was signed on May 28, 1648.",
+          "correct": true,
+          "oscillation": 13,
+          "ensemble_fraction": 0.5238095238095238
+        },
+        "selective(\u226512)": {
+          "answer": "The Treaty of Westphalia was signed on May 28, 1648.",
+          "correct": true,
+          "oscillation": 13,
+          "ensemble_fraction": 0.7142857142857143
+        }
+      }
+    },
+    {
+      "question": "What is the tallest building in the world?",
+      "keywords": [
+        "burj",
+        "khalifa"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 828 meters (2,717 feet) tall.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The tallest building in the world is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The tallest building in the world is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 0.36666666666666664
+        },
+        "selective(\u226512)": {
+          "answer": "The tallest building in the world is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which is the tallest building in the world, which",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 0.8
+        }
+      }
+    },
+    {
+      "question": "What is the capital of France?",
+      "keywords": [
+        "paris"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The capital of France is Paris.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "Paris.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "Paris.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.6666666666666666
+        },
+        "selective(\u226512)": {
+          "answer": "Paris.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        }
+      }
+    },
+    {
+      "question": "Who wrote Romeo and Juliet?",
+      "keywords": [
+        "shakespeare"
+      ],
+      "results": {
+        "normal": {
+          "answer": "Romeo and Juliet were written by William Shakespeare.",
+          "correct": true,
+          "oscillation": 14,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "Romeo and Juliet were written by William Shakespeare.",
+          "correct": true,
+          "oscillation": 14,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "Romeo and Juliet were written by William Shakespeare.",
+          "correct": true,
+          "oscillation": 14,
+          "ensemble_fraction": 0.25
+        },
+        "selective(\u226512)": {
+          "answer": "Romeo and Juliet were written by William Shakespeare.",
+          "correct": true,
+          "oscillation": 14,
+          "ensemble_fraction": 0.5
+        }
+      }
+    },
+    {
+      "question": "What is 2 + 2?",
+      "keywords": [
+        "4",
+        "four"
+      ],
+      "results": {
+        "normal": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": 14,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": 14,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": 14,
+          "ensemble_fraction": 0.4444444444444444
+        },
+        "selective(\u226512)": {
+          "answer": "2 + 2 equals 4.",
+          "correct": true,
+          "oscillation": 14,
+          "ensemble_fraction": 0.7777777777777778
+        }
+      }
+    },
+    {
+      "question": "What is the largest planet?",
+      "keywords": [
+        "jupiter"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The largest planet in our solar system is Mercury. It is the closest planet to the sun and is also the only planet with a liquid surface.",
+          "correct": false,
+          "oscillation": 16,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The largest planet is Jupiter.",
+          "correct": true,
+          "oscillation": 16,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The largest planet in our solar system is Jupiter. It is the fifth-largest planet in terms of mass and the fourth-largest in terms of diameter. It is also the only planet in our solar system that has a moon, Jupiter's moon Europa.",
+          "correct": true,
+          "oscillation": 16,
+          "ensemble_fraction": 0.48
+        },
+        "selective(\u226512)": {
+          "answer": "The largest planet in our solar system is Jupiter. It is the fifth-largest planet in terms of mass and the fourth-largest in terms of\u4f53\u79ef\u3002",
+          "correct": true,
+          "oscillation": 16,
+          "ensemble_fraction": 0.7
+        }
+      }
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "keywords": [
+        "100"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The boiling point of water is 100\u00b0C.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The boiling point of water is approximately 100 degrees Celsius.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The boiling point of water is 100\u00b0C.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 0.38461538461538464
+        },
+        "selective(\u226512)": {
+          "answer": "The boiling point of water is 100\u00b0C.",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 0.6923076923076923
+        }
+      }
+    },
+    {
+      "question": "What year did World War II end?",
+      "keywords": [
+        "1945"
+      ],
+      "results": {
+        "normal": {
+          "answer": "World War II ended on September 2, 1945.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "World War II ended on September 2, 1945.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "World War II ended on September 2, 1945.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 0.4375
+        },
+        "selective(\u226512)": {
+          "answer": "World War II ended on September 2, 1945.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 0.9375
+        }
+      }
+    },
+    {
+      "question": "Who invented the telephone?",
+      "keywords": [
+        "bell",
+        "graham"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 0.5
+        },
+        "selective(\u226512)": {
+          "answer": "The telephone was invented by Alexander Graham Bell in 1876.",
+          "correct": true,
+          "oscillation": 12,
+          "ensemble_fraction": 0.8125
+        }
+      }
+    },
+    {
+      "question": "What is H2O?",
+      "keywords": [
+        "water"
+      ],
+      "results": {
+        "normal": {
+          "answer": "H2O is a chemical compound consisting of two hydrogen atoms and one oxygen atom. It is the most common form of water and is found in oceans, lakes, rivers, and other bodies of water. H2O is also a common solvent and is used in many different applications, including cleaning,",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "Water is a molecule composed of two hydrogen atoms and one oxygen atom. It is the most abundant molecule in\u81ea\u7136\u754c\u4e2d\uff0c\u7ea6\u5360\u5730\u7403\u603b\u91cd\u91cf\u7684\u7ea678%\u3002\u6c34\u662f\u5730\u7403\u4e0a\u6700\u5e38\u89c1\u548c\u6700\u91cd\u8981\u7684\u5316\u5408\u7269\u4e4b\u4e00\uff0c\u5b83\u7528\u4e8e\u8bb8\u591a\u751f\u7269\u8fc7\u7a0b\uff0c\u5982\u6c34\u5206\u5b50\u5728\u7ec6\u80de\u4e2d\u4f5c\u4e3a\u5206\u5b50\u4f34\u4fa3\uff0c",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "Water is a molecule of hydrogen and oxygen atoms bonded together. It is the most abundant molecule in the universe and is essential for life on Earth. Water is a liquid at room temperature and is a solid at very low temperatures. It is the most abundant element in\u81ea\u7136\u754c\u4e2d\u7684\u6c34\u5206\u5b50\u3002",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.41379310344827586
+        },
+        "selective(\u226512)": {
+          "answer": "Water is a molecule composed of two hydrogen atoms and one oxygen atom. It is the most abundant molecule in the universe and is essential for life on Earth. Water is used in many processes including hydration of proteins, photosynthesis, and chemical reactions.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 0.68
+        }
+      }
+    },
+    {
+      "question": "What language is spoken in Brazil?",
+      "keywords": [
+        "portuguese"
+      ],
+      "results": {
+        "normal": {
+          "answer": "Portuguese",
+          "correct": true,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "English",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "English",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 0.5
+        },
+        "selective(\u226512)": {
+          "answer": "English",
+          "correct": false,
+          "oscillation": 18,
+          "ensemble_fraction": 1.0
+        }
+      }
+    },
+    {
+      "question": "What is the largest ocean?",
+      "keywords": [
+        "pacific"
+      ],
+      "results": {
+        "normal": {
+          "answer": "The largest ocean is the Pacific Ocean.",
+          "correct": true,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "L21-23 always": {
+          "answer": "The largest ocean is the\u592a\u5e73\u6d0b\u3002",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 1.0
+        },
+        "selective(\u226515)": {
+          "answer": "The largest ocean is the\u592a\u5e73\u6d0b\u3002",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 0.25
+        },
+        "selective(\u226512)": {
+          "answer": "The largest ocean is the\u592a\u5e73\u6d0b\u3002",
+          "correct": false,
+          "oscillation": 15,
+          "ensemble_fraction": 0.625
+        }
+      }
+    }
+  ]
+}

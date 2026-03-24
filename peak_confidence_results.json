@@ -1,0 +1,22 @@
+{
+  "n_hard": 15,
+  "n_total": 20,
+  "summary": {
+    "final": {
+      "total": 9,
+      "hard": 5
+    },
+    "peak": {
+      "total": 6,
+      "hard": 2
+    },
+    "entropy_weighted": {
+      "total": 7,
+      "hard": 3
+    },
+    "stable_peak": {
+      "total": 9,
+      "hard": 5
+    }
+  }
+}

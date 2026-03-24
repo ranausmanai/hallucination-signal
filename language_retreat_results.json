@@ -1,0 +1,340 @@
+{
+  "n_total": 17,
+  "n_en_correct": 7,
+  "n_zh_correct": 6,
+  "n_zh_better": 2,
+  "n_en_better": 3,
+  "results": [
+    {
+      "en_question": "Who won the Nobel Prize in Chemistry in 2023?",
+      "zh_question": "2023年诺贝尔化学奖得主是谁？",
+      "en_answer": "The Nobel Prize in Chemistry was won by the chemist Peter Wohlleben in 2023.",
+      "zh_answer": "2023年诺贝尔化学奖得主是美国科学家约翰·霍普金斯大学的詹姆斯·沃森和约翰·克里克。",
+      "en_correct": false,
+      "zh_correct": false,
+      "oscillation": 15,
+      "chinese_tokens_seen": [
+        "合理的",
+        "理",
+        "敷",
+        "呕",
+        "诺贝尔",
+        "猝",
+        "历史性",
+        "极端",
+        "繁忙"
+      ]
+    },
+    {
+      "en_question": "What is the melting point of tungsten in Celsius?",
+      "zh_question": "钨的熔点是多少摄氏度？",
+      "en_answer": "The melting point of tungsten in Celsius is 1,000°C.",
+      "zh_answer": "钨的熔点是3410摄氏度。",
+      "en_correct": false,
+      "zh_correct": true,
+      "oscillation": 16,
+      "chinese_tokens_seen": [
+        "合理的",
+        "呕",
+        "蓦",
+        "刺激",
+        "一般来说",
+        "寻常",
+        "温度",
+        "阔"
+      ]
+    },
+    {
+      "en_question": "Who was the 30th president of the United States?",
+      "zh_question": "美国第30任总统是谁？",
+      "en_answer": "The 30th president of the United States was William Howard Taft.",
+      "zh_answer": "美国第30任总统是唐纳德·特朗普。",
+      "en_correct": false,
+      "zh_correct": false,
+      "oscillation": 12,
+      "chinese_tokens_seen": [
+        "合理的",
+        "理",
+        "敷",
+        "呕",
+        "任期",
+        "历史性",
+        "寻常"
+      ]
+    },
+    {
+      "en_question": "What is the half-life of uranium-235 in years?",
+      "zh_question": "铀-235的半衰期是多少年？",
+      "en_answer": "The half-life of uranium-235 is 5730 years.",
+      "zh_answer": "铀-235的半衰期大约是5.4亿年。",
+      "en_correct": false,
+      "zh_correct": false,
+      "oscillation": 15,
+      "chinese_tokens_seen": [
+        "合理的",
+        "呕",
+        "刺激",
+        "一般来说",
+        "寻常",
+        "阔"
+      ]
+    },
+    {
+      "en_question": "Who is the prime minister of New Zealand as of 2024?",
+      "zh_question": "2024年新西兰总理是谁？",
+      "en_answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+      "zh_answer": "2024年新西兰总理是杰里米·罗塞塔。",
+      "en_correct": false,
+      "zh_correct": false,
+      "oscillation": 18,
+      "chinese_tokens_seen": [
+        "合理的",
+        "理",
+        "敷",
+        "呕",
+        "目前",
+        "任期",
+        "暂",
+        "历史性",
+        "极端"
+      ]
+    },
+    {
+      "en_question": "What is the largest desert in the world by area?",
+      "zh_question": "世界上面积最大的沙漠是什么？",
+      "en_answer": "The largest desert in the world by area is the Sahara Desert.",
+      "zh_answer": "世界上面积最大的沙漠是撒哈拉沙漠。",
+      "en_correct": false,
+      "zh_correct": false,
+      "oscillation": 13,
+      "chinese_tokens_seen": [
+        "合理的",
+        "理",
+        "呕",
+        "面积",
+        "地下水",
+        "刺激",
+        "历史性",
+        "世界上",
+        "阔"
+      ]
+    },
+    {
+      "en_question": "What country has the most UNESCO World Heritage Sites?",
+      "zh_question": "哪个国家拥有最多的联合国教科文组织世界遗产？",
+      "en_answer": "The country with the most UNESCO World Heritage Sites is France.",
+      "zh_answer": "中国拥有最多的联合国教科文组织世界遗产。",
+      "en_correct": false,
+      "zh_correct": true,
+      "oscillation": 14,
+      "chinese_tokens_seen": [
+        "合理的",
+        "理",
+        "呕",
+        "多个国家",
+        "刺激",
+        "历史性",
+        "寻常",
+        "世界上",
+        "阔"
+      ]
+    },
+    {
+      "en_question": "What is the atomic weight of plutonium?",
+      "zh_question": "钚的原子量是多少？",
+      "en_answer": "The atomic weight of plutonium is approximately 238.014 u.",
+      "zh_answer": "钚的原子量是238。",
+      "en_correct": false,
+      "zh_correct": false,
+      "oscillation": 18,
+      "chinese_tokens_seen": [
+        "合理的",
+        "呕",
+        "刺激",
+        "寻常",
+        "世界上"
+      ]
+    },
+    {
+      "en_question": "What is the rarest blood type?",
+      "zh_question": "最罕见的血型是什么？",
+      "en_answer": "The rarest blood type is O negative.",
+      "zh_answer": "最罕见的血型是O型。",
+      "en_correct": false,
+      "zh_correct": false,
+      "oscillation": 17,
+      "chinese_tokens_seen": [
+        "理",
+        "敷",
+        "呕",
+        "血液",
+        "刺激",
+        "历史性",
+        "寻常",
+        "世界上",
+        "严格的",
+        "阔",
+        "贫血"
+      ]
+    },
+    {
+      "en_question": "What is the speed of sound in water in m/s?",
+      "zh_question": "声音在水中的速度是多少米每秒？",
+      "en_answer": "The speed of sound in water is approximately 1482 meters per second.",
+      "zh_answer": "声音在水中的速度大约是343米每秒。",
+      "en_correct": false,
+      "zh_correct": false,
+      "oscillation": 16,
+      "chinese_tokens_seen": [
+        "合理的",
+        "速度",
+        "汞",
+        "理性",
+        "呕",
+        "刺激",
+        "一般来说",
+        "根据不同",
+        "寻常",
+        "世界上"
+      ]
+    },
+    {
+      "en_question": "Who was the first female prime minister of the UK?",
+      "zh_question": "英国第一位女首相是谁？",
+      "en_answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+      "zh_answer": "英国第一位女首相是伊丽莎白二世。",
+      "en_correct": true,
+      "zh_correct": false,
+      "oscillation": 13,
+      "chinese_tokens_seen": [
+        "合理的",
+        "理",
+        "敷",
+        "呕",
+        "历史性",
+        "极端",
+        "第一位",
+        "阔"
+      ]
+    },
+    {
+      "en_question": "What is the half-life of Carbon-14 in years?",
+      "zh_question": "碳-14的半衰期是多少年？",
+      "en_answer": "The half-life of Carbon-14 is 5730 years.",
+      "zh_answer": "碳-14的半衰期大约是5730年。",
+      "en_correct": true,
+      "zh_correct": true,
+      "oscillation": 18,
+      "chinese_tokens_seen": [
+        "合理的",
+        "呕",
+        "大约",
+        "刺激",
+        "一般来说",
+        "根据不同",
+        "寻常",
+        "世界上"
+      ]
+    },
+    {
+      "en_question": "What is the capital of Burkina Faso?",
+      "zh_question": "布基纳法索的首都是什么？",
+      "en_answer": "The capital of Burkina Faso is Ouagadougou.",
+      "zh_answer": "布基纳法索的首都是塞内加尔。",
+      "en_correct": true,
+      "zh_correct": false,
+      "oscillation": 13,
+      "chinese_tokens_seen": [
+        "首都",
+        "理",
+        "敷",
+        "呕",
+        "现在的",
+        "答案",
+        "刺激",
+        "历史性",
+        "阔"
+      ]
+    },
+    {
+      "en_question": "What is the capital of Kyrgyzstan?",
+      "zh_question": "吉尔吉斯斯坦的首都是什么？",
+      "en_answer": "The capital of Kyrgyzstan is Bishkek.",
+      "zh_answer": "吉尔吉斯斯坦的首都是塔什干。",
+      "en_correct": true,
+      "zh_correct": false,
+      "oscillation": 16,
+      "chinese_tokens_seen": [
+        "合理的",
+        "首都",
+        "理",
+        "呕",
+        "现在的",
+        "答案",
+        "刺激",
+        "历史性",
+        "寻常",
+        "世界上",
+        "阔"
+      ]
+    },
+    {
+      "en_question": "What is the capital of France?",
+      "zh_question": "法国的首都是什么？",
+      "en_answer": "The capital of France is Paris.",
+      "zh_answer": "法国的首都是巴黎。",
+      "en_correct": true,
+      "zh_correct": true,
+      "oscillation": 13,
+      "chinese_tokens_seen": [
+        "合理的",
+        "首都",
+        "理",
+        "呕",
+        "现在的",
+        "答案",
+        "刺激",
+        "历史性",
+        "寻常",
+        "世界上",
+        "阔"
+      ]
+    },
+    {
+      "en_question": "Who wrote Romeo and Juliet?",
+      "zh_question": "谁写了《罗密欧与朱丽叶》？",
+      "en_answer": "Romeo and Juliet were written by William Shakespeare.",
+      "zh_answer": "《罗密欧与朱丽叶》是莎士比亚的代表作之一，由其著名剧作家莎士比亚所写。",
+      "en_correct": true,
+      "zh_correct": true,
+      "oscillation": 12,
+      "chinese_tokens_seen": [
+        "理",
+        "敷",
+        "呕",
+        "历史性",
+        "寻常",
+        "剧",
+        "小说"
+      ]
+    },
+    {
+      "en_question": "What is the largest planet in the solar system?",
+      "zh_question": "太阳系中最大的行星是什么？",
+      "en_answer": "The largest planet in the solar system is Jupiter.",
+      "zh_answer": "太阳系中最大的行星是木星。",
+      "en_correct": true,
+      "zh_correct": true,
+      "oscillation": 15,
+      "chinese_tokens_seen": [
+        "合理的",
+        "呕",
+        "地球上",
+        "冷",
+        "历史性",
+        "世界上",
+        "阔"
+      ]
+    }
+  ]
+}

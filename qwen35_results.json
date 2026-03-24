@@ -1,0 +1,40 @@
+{
+  "model": "Qwen3.5-0.8B",
+  "baseline": {
+    "hard": 7,
+    "total": 16
+  },
+  "surgical_ft": {
+    "L23, lr=3e-5, 3ep": {
+      "total": 13,
+      "hard": 5,
+      "fixes": 2,
+      "breaks": 5,
+      "net": -3
+    },
+    "L23, lr=3e-5, 5ep": {
+      "total": 12,
+      "hard": 3,
+      "fixes": 1,
+      "breaks": 5,
+      "net": -4
+    },
+    "L23, lr=1e-5, 5ep": {
+      "total": 15,
+      "hard": 5,
+      "fixes": 1,
+      "breaks": 2,
+      "net": -1
+    }
+  },
+  "self_consistency": {
+    "hard": 9,
+    "total": 19,
+    "fixes": 3,
+    "breaks": 0
+  },
+  "oscillation": {
+    "avg_wrong": 19.444444444444443,
+    "avg_right": 19.1875
+  }
+}

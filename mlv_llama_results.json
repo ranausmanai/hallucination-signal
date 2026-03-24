@@ -1,0 +1,32 @@
+{
+  "Always MLV L28-31 k=10": {
+    "fixes": 0,
+    "breaks": 1,
+    "net": -1
+  },
+  "MLV L28-31 k=10 prob<0.7": {
+    "fixes": 0,
+    "breaks": 0,
+    "net": 0
+  },
+  "MLV L28-31 k=10 entropy>5": {
+    "fixes": 0,
+    "breaks": 0,
+    "net": 0
+  },
+  "Always MLV L26-31 k=10": {
+    "fixes": 0,
+    "breaks": 2,
+    "net": -2
+  },
+  "MLV L26-31 k=10 prob<0.7": {
+    "fixes": 0,
+    "breaks": 0,
+    "net": 0
+  },
+  "MLV L29-31 k=10 prob<0.7": {
+    "fixes": 0,
+    "breaks": 0,
+    "net": 0
+  }
+}

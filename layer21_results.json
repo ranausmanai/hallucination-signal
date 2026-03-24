@@ -1,0 +1,358 @@
+[
+  {
+    "question": "Who was the 30th president of the United States?",
+    "keywords": [
+      "coolidge",
+      "calvin"
+    ],
+    "osc": 13,
+    "use_21": false,
+    "tok_21": " George",
+    "conf_21": 0.09378451108932495,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.7965975403785706,
+    "correct_23": false,
+    "std_answer": "The 30th president of the United States was William Howard Taft.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the melting point of tungsten in Celsius?",
+    "keywords": [
+      "3422",
+      "3400"
+    ],
+    "osc": 17,
+    "use_21": true,
+    "tok_21": " The",
+    "conf_21": 0.6025183796882629,
+    "correct_21": false,
+    "tok_23": "T",
+    "conf_23": 0.5899807810783386,
+    "correct_23": false,
+    "std_answer": "Tungsten has a melting point of 1,000\u00b0C.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the half-life of uranium-235 in years?",
+    "keywords": [
+      "703 million",
+      "703",
+      "700"
+    ],
+    "osc": 16,
+    "use_21": true,
+    "tok_21": " The",
+    "conf_21": 0.42304089665412903,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.7831434607505798,
+    "correct_23": false,
+    "std_answer": "The half-life of uranium-235 is 5730 years.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the largest desert in the world by area?",
+    "keywords": [
+      "antarctica",
+      "antarctic"
+    ],
+    "osc": 15,
+    "use_21": true,
+    "tok_21": "\u6c99\u6f20",
+    "conf_21": 0.47602248191833496,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.9274287819862366,
+    "correct_23": false,
+    "std_answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What country has the most UNESCO World Heritage Sites?",
+    "keywords": [
+      "italy",
+      "china"
+    ],
+    "osc": 15,
+    "use_21": true,
+    "tok_21": " The",
+    "conf_21": 0.364735871553421,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.4457956850528717,
+    "correct_23": false,
+    "std_answer": "The country with the most UNESCO World Heritage Sites is France.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the atomic weight of plutonium?",
+    "keywords": [
+      "244",
+      "242",
+      "239"
+    ],
+    "osc": 21,
+    "use_21": true,
+    "tok_21": "\u539f\u5b50",
+    "conf_21": 0.1976136565208435,
+    "correct_21": false,
+    "tok_23": "Pl",
+    "conf_23": 0.5406002402305603,
+    "correct_23": false,
+    "std_answer": "Plutonium has an atomic weight of 238.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the rarest blood type?",
+    "keywords": [
+      "ab-",
+      "ab negative"
+    ],
+    "osc": 19,
+    "use_21": true,
+    "tok_21": "\u8840\u6db2",
+    "conf_21": 0.46131443977355957,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.7722528576850891,
+    "correct_23": false,
+    "std_answer": "The rarest blood type is O negative.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "Who won the Nobel Prize in Chemistry in 2023?",
+    "keywords": [
+      "bawendi",
+      "brus",
+      "ekimov"
+    ],
+    "osc": 18,
+    "use_21": true,
+    "tok_21": " Nobel",
+    "conf_21": 0.16715079545974731,
+    "correct_21": false,
+    "tok_23": "In",
+    "conf_23": 0.2890718877315521,
+    "correct_23": false,
+    "std_answer": "In 2023, the Nobel Prize in Chemistry was awarded to the German chemist Friedrich W\u00f6hler for his work on the synthesis of the first organic molecules.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the speed of sound in water in m/s?",
+    "keywords": [
+      "1480",
+      "1500",
+      "1498"
+    ],
+    "osc": 18,
+    "use_21": true,
+    "tok_21": "\u58f0\u97f3",
+    "conf_21": 0.3595059812068939,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.8981842398643494,
+    "correct_23": false,
+    "std_answer": "The speed of sound in water is approximately 1450 meters per second.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "Who is the prime minister of New Zealand as of 2024?",
+    "keywords": [
+      "luxon",
+      "christopher"
+    ],
+    "osc": 20,
+    "use_21": true,
+    "tok_21": " As",
+    "conf_21": 0.23257020115852356,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.4882791340351105,
+    "correct_23": false,
+    "std_answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the capital of Kyrgyzstan?",
+    "keywords": [
+      "bishkek"
+    ],
+    "osc": 18,
+    "use_21": true,
+    "tok_21": "\u9996\u90fd",
+    "conf_21": 0.2657919228076935,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.6037270426750183,
+    "correct_23": false,
+    "std_answer": "The capital of Kyrgyzstan is Bishkek.",
+    "std_correct": true,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the capital of Burkina Faso?",
+    "keywords": [
+      "ouagadougou"
+    ],
+    "osc": 16,
+    "use_21": true,
+    "tok_21": " capital",
+    "conf_21": 0.18643300235271454,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.7001108527183533,
+    "correct_23": false,
+    "std_answer": "The capital of Burkina Faso is Ouagadougou.",
+    "std_correct": true,
+    "routed_correct": false
+  },
+  {
+    "question": "Who was the first female prime minister of the UK?",
+    "keywords": [
+      "thatcher"
+    ],
+    "osc": 15,
+    "use_21": true,
+    "tok_21": "\u7b2c\u4e00\u4f4d",
+    "conf_21": 0.728093147277832,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.7634111046791077,
+    "correct_23": false,
+    "std_answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+    "std_correct": true,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the half-life of Carbon-14 in years?",
+    "keywords": [
+      "5730",
+      "5700"
+    ],
+    "osc": 19,
+    "use_21": true,
+    "tok_21": " The",
+    "conf_21": 0.3094782829284668,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.5414229035377502,
+    "correct_23": false,
+    "std_answer": "The half-life of Carbon-14 is 5730 years.",
+    "std_correct": true,
+    "routed_correct": false
+  },
+  {
+    "question": "What year was the WHO founded?",
+    "keywords": [
+      "1948"
+    ],
+    "osc": 12,
+    "use_21": false,
+    "tok_21": " The",
+    "conf_21": 0.7556092143058777,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.9851070046424866,
+    "correct_23": false,
+    "std_answer": "The World Health Organization (WHO) was founded on September 3, 1945.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the largest planet?",
+    "keywords": [
+      "jupiter"
+    ],
+    "osc": 16,
+    "use_21": true,
+    "tok_21": " Mars",
+    "conf_21": 0.2525674104690552,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.9109959006309509,
+    "correct_23": false,
+    "std_answer": "The largest planet in our solar system is Mercury. It is the only planet in our solar system that has no atmosphere, making it the only planet without a visible surface.",
+    "std_correct": false,
+    "routed_correct": false
+  },
+  {
+    "question": "What is the capital of France?",
+    "keywords": [
+      "paris"
+    ],
+    "osc": 15,
+    "use_21": true,
+    "tok_21": " Paris",
+    "conf_21": 0.9405280351638794,
+    "correct_21": true,
+    "tok_23": "The",
+    "conf_23": 0.6272115111351013,
+    "correct_23": false,
+    "std_answer": "The capital of France is Paris.",
+    "std_correct": true,
+    "routed_correct": true
+  },
+  {
+    "question": "Who wrote Romeo and Juliet?",
+    "keywords": [
+      "shakespeare"
+    ],
+    "osc": 14,
+    "use_21": false,
+    "tok_21": " Shakespeare",
+    "conf_21": 0.3839679956436157,
+    "correct_21": true,
+    "tok_23": "R",
+    "conf_23": 0.8717377781867981,
+    "correct_23": false,
+    "std_answer": "Romeo and Juliet were written by William Shakespeare.",
+    "std_correct": true,
+    "routed_correct": true
+  },
+  {
+    "question": "What is 2 + 2?",
+    "keywords": [
+      "4",
+      "four"
+    ],
+    "osc": 14,
+    "use_21": false,
+    "tok_21": " ",
+    "conf_21": 0.6954956650733948,
+    "correct_21": false,
+    "tok_23": "2",
+    "conf_23": 0.7135264277458191,
+    "correct_23": false,
+    "std_answer": "2 + 2 equals 4.",
+    "std_correct": true,
+    "routed_correct": true
+  },
+  {
+    "question": "What is the boiling point of water?",
+    "keywords": [
+      "100"
+    ],
+    "osc": 18,
+    "use_21": true,
+    "tok_21": "\u6c34",
+    "conf_21": 0.6641281247138977,
+    "correct_21": false,
+    "tok_23": "The",
+    "conf_23": 0.7911584377288818,
+    "correct_23": false,
+    "std_answer": "The boiling point of water is 100\u00b0C.",
+    "std_correct": true,
+    "routed_correct": false
+  }
+]

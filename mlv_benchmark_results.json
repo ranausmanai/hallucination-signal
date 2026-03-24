@@ -1,0 +1,44 @@
+{
+  "Qwen2-0.5B": {
+    "baseline": 79,
+    "mlv": {
+      "MLV k=10": {
+        "correct": 80,
+        "total": 100,
+        "fixes": 5,
+        "breaks": 4,
+        "net": 1,
+        "overrides": 171
+      },
+      "MLV k=20": {
+        "correct": 78,
+        "total": 100,
+        "fixes": 5,
+        "breaks": 6,
+        "net": -1,
+        "overrides": 203
+      }
+    }
+  },
+  "Qwen3.5-0.8B": {
+    "baseline": 77,
+    "mlv": {
+      "MLV k=10": {
+        "correct": 75,
+        "total": 100,
+        "fixes": 5,
+        "breaks": 7,
+        "net": -2,
+        "overrides": 191
+      },
+      "MLV k=20": {
+        "correct": 76,
+        "total": 100,
+        "fixes": 5,
+        "breaks": 6,
+        "net": -1,
+        "overrides": 256
+      }
+    }
+  }
+}

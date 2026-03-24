@@ -1,0 +1,159 @@
+{
+  "importance": [
+    0.9473684210526315,
+    1.0,
+    0.15789473684210525,
+    0.07894736842105263,
+    0.07894736842105263,
+    0.10526315789473684,
+    0.05263157894736842,
+    0.02631578947368421,
+    0.05263157894736842,
+    0.34210526315789475,
+    0.13157894736842105,
+    0.07894736842105263,
+    0.02631578947368421,
+    0.18421052631578946,
+    0.02631578947368421,
+    0.02631578947368421,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.10526315789473684,
+    0.0,
+    0.02631578947368421,
+    0.05263157894736842,
+    0.0,
+    0.0,
+    0.0,
+    0.05263157894736842,
+    0.02631578947368421,
+    0.07894736842105263,
+    0.2631578947368421,
+    0.21052631578947367
+  ],
+  "total_tokens": 38,
+  "pruning": {
+    "Skip layer 16 (least important)": {
+      "skip_set": [
+        16
+      ],
+      "n_skipped": 1,
+      "pct_skipped": 3.1,
+      "theoretical_speedup": 1.03,
+      "accuracy": 93,
+      "delta": -5
+    },
+    "Skip 2 least important: [16, 17]": {
+      "skip_set": [
+        16,
+        17
+      ],
+      "n_skipped": 2,
+      "pct_skipped": 6.2,
+      "theoretical_speedup": 1.07,
+      "accuracy": 81,
+      "delta": -17
+    },
+    "Skip 4 least important: [16, 17, 18, 19]": {
+      "skip_set": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "n_skipped": 4,
+      "pct_skipped": 12.5,
+      "theoretical_speedup": 1.14,
+      "accuracy": 52,
+      "delta": -46
+    },
+    "Skip 8 least important: [16, 17, 18, 19, 21, 24, 25, 26]": {
+      "skip_set": [
+        16,
+        17,
+        18,
+        19,
+        21,
+        24,
+        25,
+        26
+      ],
+      "n_skipped": 8,
+      "pct_skipped": 25.0,
+      "theoretical_speedup": 1.33,
+      "accuracy": 19,
+      "delta": -79
+    },
+    "Skip layers 10-13 (4 layers, 12%)": {
+      "skip_set": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "n_skipped": 4,
+      "pct_skipped": 12.5,
+      "theoretical_speedup": 1.14,
+      "accuracy": 84,
+      "delta": -14
+    },
+    "Skip layers 8-15 (8 layers, 25%)": {
+      "skip_set": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "n_skipped": 8,
+      "pct_skipped": 25.0,
+      "theoretical_speedup": 1.33,
+      "accuracy": 34,
+      "delta": -64
+    },
+    "Skip layers 12-19 (8 layers, 25%)": {
+      "skip_set": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "n_skipped": 8,
+      "pct_skipped": 25.0,
+      "theoretical_speedup": 1.33,
+      "accuracy": 11,
+      "delta": -87
+    },
+    "Skip layers 8-19 (12 layers, 38%)": {
+      "skip_set": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "n_skipped": 12,
+      "pct_skipped": 37.5,
+      "theoretical_speedup": 1.6,
+      "accuracy": 3,
+      "delta": -95
+    }
+  },
+  "baseline": 98
+}

@@ -1,0 +1,468 @@
+[
+  {
+    "question": "Who won the Nobel Prize in Chemistry in 2023?",
+    "keywords": [
+      "bawendi",
+      "brus",
+      "ekimov"
+    ],
+    "normal_answer": "In 2023, the Nobel Prize in Chemistry was awarded to the German chemist Friedrich W\u00f6hler for his work on the synthesis of the first organic molecules.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "In 2023, the Nobel Prize in Chemistry was awarded to the Russian chemist Alexei Khrushchev for his work on the synthesis of the first organic molecule.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "In 2023, the Nobel Prize in Chemistry was awarded to the Russian chemist Alexei Paskalov for his work on the synthesis of a new class of organic molecules.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "The Nobel Prize in Chemistry was awarded to Prof. Michael T. Ruppert and Prof. Michael A. Ruppert for their work on the synthesis of the nitrogen-containing molecule ammonia.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "In 2023, the Nobel Prize in Chemistry was won by the German chemist Peter Wohlleben for his work on the structure of the nitrogen molecule.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "The Nobel Prize in Chemistry was won by the chemist Peter W. B. Sagan in 2023.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "What is the melting point of tungsten in Celsius?",
+    "keywords": [
+      "3422",
+      "3400"
+    ],
+    "normal_answer": "Tungsten has a melting point of 1,000\u00b0C.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "Tungsten has a melting point of 1,000\u00b0C.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "Tungsten has a melting point of 1,000\u00b0C.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "Tungsten has a melting point of 1,000 degrees Celsius.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The melting point of tungsten in Celsius is approximately 1,000 degrees Celsius.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "The melting point of tungsten in Celsius is approximately 1,200\u00b0C.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "Who was the 30th president of the United States?",
+    "keywords": [
+      "coolidge",
+      "calvin"
+    ],
+    "normal_answer": "The 30th president of the United States was William Howard Taft.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "The 30th president of the United States was William Howard Taft.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "The 30th president of the United States was William Howard Taft.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "The 30th president of the United States was George Washington.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The 30th president of the United States was William Howard Taft.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "The 30th president of the United States was William Howard Taft.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "What is the half-life of uranium-235 in years?",
+    "keywords": [
+      "703 million",
+      "703",
+      "700"
+    ],
+    "normal_answer": "The half-life of uranium-235 is 5730 years.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "The half-life of uranium-235 is 5.4 million years.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "The half-life of uranium-235 is 5.7 years.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "Uranium-235 has a half-life of 5.47 years.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The half-life of uranium-235 is 5730 years.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "The half-life of uranium-235 is 5730 years.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "What is the capital of Kyrgyzstan?",
+    "keywords": [
+      "bishkek"
+    ],
+    "normal_answer": "The capital of Kyrgyzstan is Bishkek.",
+    "normal_correct": true,
+    "steered": {
+      "3.0": {
+        "text": "The capital of Kyrgyzstan is Bishkek.",
+        "correct": true
+      },
+      "5.0": {
+        "text": "The capital of Kyrgyzstan is Bishkek.",
+        "correct": true
+      },
+      "10.0": {
+        "text": "The capital of Kyrgyzstan is Bishkek.",
+        "correct": true
+      },
+      "-3.0": {
+        "text": "The capital of Kyrgyzstan is Bishkek.",
+        "correct": true
+      },
+      "-5.0": {
+        "text": "The capital of Kyrgyzstan is Bishkek.",
+        "correct": true
+      }
+    }
+  },
+  {
+    "question": "Who is the prime minister of New Zealand as of 2024?",
+    "keywords": [
+      "luxon",
+      "christopher"
+    ],
+    "normal_answer": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "The Prime Minister of New Zealand is Jacinda Ardern.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "The Prime Minister of New Zealand is Jacinda Ardern.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The current Prime Minister of New Zealand is Jacinda Ardern.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "As of 2024, the current prime minister of New Zealand is Jacinda Ardern.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "What is the speed of sound in water in m/s?",
+    "keywords": [
+      "1480",
+      "1500",
+      "1498"
+    ],
+    "normal_answer": "The speed of sound in water is approximately 1480 m/s.",
+    "normal_correct": true,
+    "steered": {
+      "3.0": {
+        "text": "The speed of sound in water is approximately 1480 meters per second.",
+        "correct": true
+      },
+      "5.0": {
+        "text": "The speed of sound in water is approximately 1480 meters per second.",
+        "correct": true
+      },
+      "10.0": {
+        "text": "The speed of sound in water is approximately 1.41 m/s. This is measured in meters per second (m/s).",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The speed of sound in water is approximately 1500 m/s.",
+        "correct": true
+      },
+      "-5.0": {
+        "text": "The speed of sound in water is approximately 1500 m/s.",
+        "correct": true
+      }
+    }
+  },
+  {
+    "question": "What is the largest desert in the world by area?",
+    "keywords": [
+      "antarctica",
+      "antarctic"
+    ],
+    "normal_answer": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "The Sahara Desert is the largest desert in the world by area. It covers an area of approximately 14.5 million square kilometers.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "The Sahara Desert is the largest desert in the world by area. It covers an area of approximately 14.5 million square kilometers.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "The Sahara Desert is the largest desert in the world by area. It covers an area of approximately 14.5 million square kilometers.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "The largest desert in the world by area is the Sahara Desert. It covers an area of approximately 1.5 million square kilometers.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "What country has the most UNESCO World Heritage Sites?",
+    "keywords": [
+      "italy",
+      "china"
+    ],
+    "normal_answer": "The country with the most UNESCO World Heritage Sites is France.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "The country with the most UNESCO World Heritage Sites is France.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "The country with the most UNESCO World Heritage Sites is France.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "The country with the most UNESCO World Heritage Sites is France.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The country with the most UNESCO World Heritage Sites is France.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "The country with the most UNESCO World Heritage Sites is China.",
+        "correct": true
+      }
+    }
+  },
+  {
+    "question": "What is the atomic weight of plutonium?",
+    "keywords": [
+      "244",
+      "242",
+      "239"
+    ],
+    "normal_answer": "Plutonium has an atomic weight of 238.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "Plutonium has an atomic weight of 238.6888 amu.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "Plutonium has an atomic weight of 238.6888 amu.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "Plutonium is a noble gas element with the symbol Pu and atomic number 94. Its atomic weight is 299.00725 uroatomic.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The atomic weight of plutonium is approximately 238.9588 amu.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "The atomic weight of plutonium is approximately 238.99999999999997.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "What is the rarest blood type?",
+    "keywords": [
+      "ab-",
+      "ab negative"
+    ],
+    "normal_answer": "The rarest blood type is O negative.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "The rarest blood type is O negative.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "The rarest blood type is O negative.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "Rh blood type. Rh blood type is the most common blood type in the world, with about 70% of the world's blood being of this type. Rh blood type is also the most common type of blood type in the United States.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The rarest blood type is A.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "The rarest blood type is A.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "What is the GDP of Vietnam in 2023 in USD?",
+    "keywords": [
+      "430",
+      "450"
+    ],
+    "normal_answer": "The GDP of Vietnam in 2023 is estimated to be around $1.5 trillion USD.",
+    "normal_correct": false,
+    "steered": {
+      "3.0": {
+        "text": "The GDP of Vietnam in 2023 is estimated to be around $1.5 trillion USD.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "The GDP of Vietnam in 2023 is estimated to be around $1.5 trillion USD.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "The GDP of Vietnam in 2023 in USD is $2,110 billion.",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "As of 2023, the GDP of Vietnam is estimated to be approximately $1.5 trillion USD.",
+        "correct": false
+      },
+      "-5.0": {
+        "text": "As of my last update, the GDP of Vietnam in 2023 is not publicly available. The latest data is likely to be released in the coming months.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "Who was the first female prime minister of the UK?",
+    "keywords": [
+      "thatcher"
+    ],
+    "normal_answer": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+    "normal_correct": true,
+    "steered": {
+      "3.0": {
+        "text": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+        "correct": true
+      },
+      "5.0": {
+        "text": "The first female prime minister of the UK was Lady Margaret Thatcher. She served as Prime Minister of the UK from 1979 to 1990.",
+        "correct": true
+      },
+      "10.0": {
+        "text": "The first female prime minister of the UK was Margaret Thatcher.",
+        "correct": true
+      },
+      "-3.0": {
+        "text": "The first female prime minister of the UK was Lady Thatcher. She served as Prime Minister from 1979 to 1990.",
+        "correct": true
+      },
+      "-5.0": {
+        "text": "The first female prime minister of the UK was Lady Mary, Countess of Derby, who served from 1953 to 1957.",
+        "correct": false
+      }
+    }
+  },
+  {
+    "question": "What is the half-life of Carbon-14 in years?",
+    "keywords": [
+      "5730",
+      "5700"
+    ],
+    "normal_answer": "The half-life of Carbon-14 is 5730 years.",
+    "normal_correct": true,
+    "steered": {
+      "3.0": {
+        "text": "Carbon-14 has a half-life of 5,730 years.",
+        "correct": false
+      },
+      "5.0": {
+        "text": "Carbon-14 has a half-life of 5,730 years.",
+        "correct": false
+      },
+      "10.0": {
+        "text": "Carbon-14 is a radioactive isotope of carbon that decays over time. It takes about 4.56 years for Carbon-14 to decay into Carbon-12. This is known as the half-life of Carbon-1",
+        "correct": false
+      },
+      "-3.0": {
+        "text": "The half-life of Carbon-14 is 5730 years.",
+        "correct": true
+      },
+      "-5.0": {
+        "text": "The half-life of Carbon-14 is 5730 years.",
+        "correct": true
+      }
+    }
+  },
+  {
+    "question": "What is the capital of Burkina Faso?",
+    "keywords": [
+      "ouagadougou"
+    ],
+    "normal_answer": "The capital of Burkina Faso is Ouagadougou.",
+    "normal_correct": true,
+    "steered": {
+      "3.0": {
+        "text": "The capital of Burkina Faso is Ouagadougou.",
+        "correct": true
+      },
+      "5.0": {
+        "text": "The capital of Burkina Faso is Ouagadougou.",
+        "correct": true
+      },
+      "10.0": {
+        "text": "The capital of Burkina Faso is Ouagadougou.",
+        "correct": true
+      },
+      "-3.0": {
+        "text": "The capital of Burkina Faso is Ouagadougou.",
+        "correct": true
+      },
+      "-5.0": {
+        "text": "The capital of Burkina Faso is Ouagadougou.",
+        "correct": true
+      }
+    }
+  }
+]

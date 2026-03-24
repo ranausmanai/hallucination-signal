@@ -1,0 +1,452 @@
+[
+  {
+    "question": "Who was the 30th president of the United States?",
+    "greedy_correct": false,
+    "oscillation": 13,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": false,
+      "1.0": false
+    },
+    "right_fraction": {
+      "0.5": 0.14285714285714285,
+      "0.7": 0.0,
+      "1.0": 0.0
+    }
+  },
+  {
+    "question": "What is the melting point of tungsten in Celsius?",
+    "greedy_correct": false,
+    "oscillation": 17,
+    "sc_correct": {
+      "0.5": false,
+      "0.7": true,
+      "1.0": false
+    },
+    "right_fraction": {
+      "0.5": 0.0,
+      "0.7": 0.14285714285714285,
+      "1.0": 0.0
+    }
+  },
+  {
+    "question": "What is the half-life of uranium-235 in years?",
+    "greedy_correct": false,
+    "oscillation": 16,
+    "sc_correct": {
+      "0.5": false,
+      "0.7": false,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 0.0,
+      "0.7": 0.0,
+      "1.0": 0.14285714285714285
+    }
+  },
+  {
+    "question": "What is the largest desert in the world by area?",
+    "greedy_correct": false,
+    "oscillation": 15,
+    "sc_correct": {
+      "0.5": false,
+      "0.7": false,
+      "1.0": false
+    },
+    "right_fraction": {
+      "0.5": 0.0,
+      "0.7": 0.0,
+      "1.0": 0.0
+    }
+  },
+  {
+    "question": "What country has the most UNESCO World Heritage Sites?",
+    "greedy_correct": false,
+    "oscillation": 15,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 0.2857142857142857,
+      "0.7": 0.14285714285714285,
+      "1.0": 0.14285714285714285
+    }
+  },
+  {
+    "question": "What is the atomic weight of plutonium?",
+    "greedy_correct": false,
+    "oscillation": 21,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": false
+    },
+    "right_fraction": {
+      "0.5": 0.14285714285714285,
+      "0.7": 0.14285714285714285,
+      "1.0": 0.0
+    }
+  },
+  {
+    "question": "What is the rarest blood type?",
+    "greedy_correct": false,
+    "oscillation": 19,
+    "sc_correct": {
+      "0.5": false,
+      "0.7": false,
+      "1.0": false
+    },
+    "right_fraction": {
+      "0.5": 0.0,
+      "0.7": 0.0,
+      "1.0": 0.0
+    }
+  },
+  {
+    "question": "Who won the Nobel Prize in Chemistry in 2023?",
+    "greedy_correct": false,
+    "oscillation": 18,
+    "sc_correct": {
+      "0.5": false,
+      "0.7": false,
+      "1.0": false
+    },
+    "right_fraction": {
+      "0.5": 0.0,
+      "0.7": 0.0,
+      "1.0": 0.0
+    }
+  },
+  {
+    "question": "What is the speed of sound in water in m/s?",
+    "greedy_correct": false,
+    "oscillation": 18,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 0.2857142857142857,
+      "0.7": 0.2857142857142857,
+      "1.0": 0.14285714285714285
+    }
+  },
+  {
+    "question": "Who is the prime minister of New Zealand as of 2024?",
+    "greedy_correct": false,
+    "oscillation": 20,
+    "sc_correct": {
+      "0.5": false,
+      "0.7": false,
+      "1.0": false
+    },
+    "right_fraction": {
+      "0.5": 0.0,
+      "0.7": 0.0,
+      "1.0": 0.0
+    }
+  },
+  {
+    "question": "What is the GDP of Vietnam in 2023 in USD?",
+    "greedy_correct": false,
+    "oscillation": 17,
+    "sc_correct": {
+      "0.5": false,
+      "0.7": false,
+      "1.0": false
+    },
+    "right_fraction": {
+      "0.5": 0.0,
+      "0.7": 0.0,
+      "1.0": 0.0
+    }
+  },
+  {
+    "question": "What is the capital of Kyrgyzstan?",
+    "greedy_correct": true,
+    "oscillation": 18,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 0.8571428571428571
+    }
+  },
+  {
+    "question": "What is the capital of Burkina Faso?",
+    "greedy_correct": true,
+    "oscillation": 16,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 0.8571428571428571,
+      "0.7": 1.0,
+      "1.0": 0.7142857142857143
+    }
+  },
+  {
+    "question": "Who was the first female prime minister of the UK?",
+    "greedy_correct": true,
+    "oscillation": 15,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 0.8571428571428571,
+      "0.7": 0.42857142857142855,
+      "1.0": 0.2857142857142857
+    }
+  },
+  {
+    "question": "What is the half-life of Carbon-14 in years?",
+    "greedy_correct": true,
+    "oscillation": 19,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 0.5714285714285714,
+      "0.7": 0.5714285714285714,
+      "1.0": 0.2857142857142857
+    }
+  },
+  {
+    "question": "What year was the WHO founded?",
+    "greedy_correct": false,
+    "oscillation": 12,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 0.8571428571428571,
+      "0.7": 0.2857142857142857,
+      "1.0": 0.42857142857142855
+    }
+  },
+  {
+    "question": "Who composed the Four Seasons?",
+    "greedy_correct": true,
+    "oscillation": 15,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 0.42857142857142855,
+      "1.0": 0.2857142857142857
+    }
+  },
+  {
+    "question": "What is the capital of Myanmar?",
+    "greedy_correct": true,
+    "oscillation": 18,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 0.7142857142857143,
+      "1.0": 1.0
+    }
+  },
+  {
+    "question": "What year was the Treaty of Westphalia signed?",
+    "greedy_correct": true,
+    "oscillation": 13,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 1.0
+    }
+  },
+  {
+    "question": "What is the tallest building in the world?",
+    "greedy_correct": true,
+    "oscillation": 15,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 0.8571428571428571,
+      "1.0": 0.7142857142857143
+    }
+  },
+  {
+    "question": "What is the capital of France?",
+    "greedy_correct": true,
+    "oscillation": 15,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 0.8571428571428571
+    }
+  },
+  {
+    "question": "Who wrote Romeo and Juliet?",
+    "greedy_correct": true,
+    "oscillation": 14,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 1.0
+    }
+  },
+  {
+    "question": "What is 2 + 2?",
+    "greedy_correct": true,
+    "oscillation": 14,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 1.0
+    }
+  },
+  {
+    "question": "What is the largest planet?",
+    "greedy_correct": false,
+    "oscillation": 16,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 0.5714285714285714,
+      "0.7": 0.5714285714285714,
+      "1.0": 0.2857142857142857
+    }
+  },
+  {
+    "question": "What is the boiling point of water?",
+    "greedy_correct": true,
+    "oscillation": 18,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 0.8571428571428571
+    }
+  },
+  {
+    "question": "What year did World War II end?",
+    "greedy_correct": true,
+    "oscillation": 12,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 1.0
+    }
+  },
+  {
+    "question": "Who invented the telephone?",
+    "greedy_correct": true,
+    "oscillation": 12,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 0.8571428571428571,
+      "1.0": 1.0
+    }
+  },
+  {
+    "question": "What is H2O?",
+    "greedy_correct": true,
+    "oscillation": 15,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 0.8571428571428571
+    }
+  },
+  {
+    "question": "What language is spoken in Brazil?",
+    "greedy_correct": true,
+    "oscillation": 18,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 1.0,
+      "1.0": 0.8571428571428571
+    }
+  },
+  {
+    "question": "What is the largest ocean?",
+    "greedy_correct": true,
+    "oscillation": 15,
+    "sc_correct": {
+      "0.5": true,
+      "0.7": true,
+      "1.0": true
+    },
+    "right_fraction": {
+      "0.5": 1.0,
+      "0.7": 0.8571428571428571,
+      "1.0": 0.8571428571428571
+    }
+  }
+]
