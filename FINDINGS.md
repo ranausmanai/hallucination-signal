@@ -1,5 +1,7 @@
 # Mechanistic Interpretability of LLM Hallucinations: Complete Research Findings
 
+**Full code & data:** [github.com/ranausmanai/hallucination-signal](https://github.com/ranausmanai/hallucination-signal)
+
 **Research period:** March 2026
 **Hardware:** M4 MacBook Pro, 24GB RAM
 **Framework:** MLX (Apple Silicon ML framework)
